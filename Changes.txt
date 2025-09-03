@@ -1,0 +1,189 @@
+GAMEPLAY CHANGES
+- The starters are now Smoochum, Elekid & Magby.
+- All Wild Pokemon in Grass, on cave floors etc and first time trainer battles have been changed. 
+- The majority of fishing and Surfing locations have had their Wild encounters edited to fit with the change in rods and allow a wider variety.
+- The Old Rod is now located in Viridian, north of the coffee guy. 
+- The Good Rod is now located in Vermilion, where the Old Rod used to be.
+- The Super Rod has not changed locations.
+- Small patches of grass have been added to Viridian, Vermilion, Celadon and Cerulean with new Pokemon inside.
+- The Old Rod no longer fishes just Magikarp; the majority of areas early on in the game relinquish valuable water Pokemon when fished into with the Old Rod.
+- Likewise, most midgameish water will have good Pokemon when fishing with the Good Rod.
+- The National Dex is obtained as soon as you get the PokeDex.
+- Some new areas have been added.
+- The starters from the Kanto, Johto and Hoenn regions are given by people around Kanto. Be sure to talk to new people in PokeCenters, town squares etc as they may be the ones who give you a starter! Expect to see the Hoenn starters first, then the Johto starters and the Kanto starters last.
+- All Gym Leaders, Giovanni battles and Elite Four battles now have six Pokemon to deal with.
+- Levels throughout the game are overall higher; this is to compensate for the rather larger chunks of EXP you might receive.
+- Some new items have been added throughout the game, including some stones, a Lucky Egg, etcetera. 
+- Some legends have had their levels changed.
+- There are new trainers.
+- Trades in the game have been edited.
+- Some marts have had their stock edited, and the prices of items such as Ultra Balls have been lowered.
+- Eevee is now Level 30 when obtained.
+- The fossils are now Level 40 when obtained.
+- Lapras in Silph. Co has been replaced with Castform.
+- Someone else will give you Lapras, but it's up to you to find them!
+
+Level-Up Moves
+- Bulbasaur's level-up moves changed to the Platinum set.
+- Ivysaur's level-up moves changed to the Platinum set.
+- Venusaur's level-up moves changed to the Platinum set.
+- Charmander's level-up moves changed to the Platinum set.
+- Charmeleon's level-up moves changed to the Platinum set. - However, Slash and Flamethrower have been swapped around.
+- Charizard's level-up moves changed to the Platinum set.
+- Squirtle's level-up moves changed to the Platinum set.
+- Wartortle's level-up moves changed to the Platinum set.
+- Blastoise's level-up moves changed to the Platinum set.
+- Treecko's level-up moves changed to the Platinum set.
+- Grovyle's level-up moves changed to the Platinum set.
+- Sceptile's level-up moves changed to the Platinum set, as well as learning Frenzy Plant at Level 65.
+- Torchic's level-up moves changed to the Platinum set.
+- Combusken's level-up moves changed to the Platinum set.
+- Blaziken's level-up moves changed to the Platinum set, as well as learning Blast Burn at Level 66.
+- Mudkip's level-up moves changed to the Platinum set.
+- Marshtomp's level-up moves changed to the Platinum set, but some moves have had their order swapped.
+- Swampert's level-up moves changed to the Platinum set, as well as learning Hydro Cannon at Level 69.
+* Where DPP moves were, different moves have been added instead.
+- Smoochum's level-up moves have been changed completely.
+- Elekid's level-up moves have been changed completely.
+- Magby's level-up moves have been changed completely.
+- Jynx's level-up moves have been changed completely.
+- Electabuzz's level-up moves have been changed completely.
+- Magmar's level-up moves have been changed completely.
+- Exeggutor now learns Magical Leaf at Level 42.
+- Victreebel now learns Leaf Blade at Level 44.
+- Weepinbell's level-up set has been slightly changed, and it now learns Razor Leaf at Level 24, Acid at Level 29, Sweet Scent at Level 34 and Slam at Level 39.
+- Gloom's level-up set has been slightly changed, and it now learns Petal Dance at Level 24, Acid at Level 30 and Moonlight at Level 36.
+- Oddish and Bellsprout have also had theirs tweaked, to follow the same pattern as their evolutions.
+- Flygon now learns Earthquake at Level 45, Sandstorm at Level 49, Dragon Claw at Level 54 and Hyper Beam at Level 60.
+- Poliwhirl now learns Ice Punch at Level 25.
+- Alakazam now learns Thunderpunch & Fire Punch at Level 36, Psychic at Level 39, Calm Mind at Level 42 and Trick at Level 45.
+- Kirlia now learns Magical Leaf at Level 24 and Psychic at Level 27.
+- Gardevoir now learns Magical Leaf at Level 1 and Ice Punch at Level 30.
+- Flaaffy now learns Thunderpunch at Level 22 and Thunderbolt at Level 31.
+- Ampharos now learns Thunderpunch at Level 1, Tail Glow at Level 1, Fire Punch at Level 30, Thunderbolt at Level 37, Light Screen at Level 44 and Thunder at Level 52.
+- Bellossom now learns Leaf Blade at Level 33.
+- Raichu now learns Surf at Level 1 and Volt Tackle at Level 52.
+- Luvdisc's learn-set has been changed into a sequence of fours. Take Down has been changed into Aurora Beam at Level 20 and Hydro Pump is now learned at Level 40.
+- Electrode now learns Sharpen at Level 30.
+- Magcargo now learns Recover at Level 38.
+- Gengar now learns Ice Punch & Fire Punch at Level 38.
+- Ninetales no longer learns Fire Spin at Level 45, but instead learns Hypnosis at Level 45.
+- Crobat now learns Haze at Level 61, but can now learn Hypnosis at Level 56.
+- Zubat now learns Wing Attack at Level 11, Supersonic at Level 16 and Bite at Level 21.
+- Vileplume no longer learns Aromatherapy at Level 1, but instead learns Aromatherapy at Level 55 and Leech Seed at Level 33.
+- Venomoth now learns Gust at Level 1 and Silver Wind at Level 31, whereas it was the other way around previously.
+- Scyther & Scizor now learn Silver Wind at Level 51.
+- Pinsir now learns Megahorn at Level 56.
+- Sneasel no longer learns Leer, but now learns Swords Dance at Level 4.
+- Electrike now learns Thunder Wave at Level 1, and Thundershock at Level 4.
+- Ralts now begins with Confusion and learns Growl at Level 6.
+- Clamperl now learns Aurora Beam instead of Whirlpool.
+- Gorebyss now learns Confusion and Agility at Level 18.
+- Huntail now learns Bite and Screech at Level 18.
+- Natu no longer learns Teleport, but learns Confusion at Level 5 and Extrasensory at Level 20, as well as Wish at Level 25, Future Sight at Level 30, Confuse Ray at Level 35 and Psychic at Level 40.
+- Xatu now learns Magical Leaf at Level 25, Wish at Level 30, Future Sight at Level 35, Confuse Ray at Level 40 and Psychic at Level 45.
+- Tropius no longer learns Whirlwind but gets Magical Leaf at Level 27 and Leaf Blade at Level 33.
+- Beedrill now learns Signal Beam at Level 50.
+- Yanma now learns Silver Wind at Level 31 and Psychic at Level 42.
+- Piloswine now learns Earthquake at Level 33 and Fury Attack at Level 38.
+- Gardevoir no longer learns Future Sight, but now learns Wish at Level 42.
+- Shiftry now learns Leaf Blade at Level 43.
+- Ludicolo now learns Dive at Level 43.
+- Poliwrath now gets Mind Reader at Level 41, and Superpower at Level 49.
+- Politoed now gets Swagger at Level 41, and Hydro Pump at Level 49.
+- Meganium now learns Frenzy Plant at Level 71.
+- Typhlosion now learns Blast Burn at Level 69.
+- Feraligatr now learns Hydro Cannon at Level 74.
+- Quagsire now gets Muddy Water at Level 29.
+- Whiscash now gets Muddy Water at Level 30.
+- Hitmonlee now learns Blaze Kick at Level 33 (as useless as it is.)
+- Flareon no longer learns Smog but gets Superpower at Level 42.
+- Gligar now gets Earthquake at Level 31.
+- Tangela now gets Morning Sun at Level 52.
+- Altaria now gets Heal Bell at Level 51.
+- Mewtwo now gets Refresh at Level 55 and Safeguard at Level 1 instead.
+- Onix and Steelix now learn Swagger at Level 14.
+- Metang now learns Metal Claw at Level 26, and Scary Face at Level 29.
+- Articuno now learns Extrasensory at Level 54 and Heal Bell at Level 66.
+- Zapdos now learns Extrasensory at Level 54 and Heat Wave at Level 66.
+- Moltres now learns Extrasensory at Level 54 and Solarbeam at Level 66.
+- Raikou and Entei no longer learn Roar at Level 21 but get Extrasensory instead.
+- Celebi now gets Psychic at Level 50 and Perish Song is at 60 instead.
+- Jirachi now gets Rest at Level 35 and Double-Edge at 30 instead.
+
+TM/HM Changes
+- Magmar is now capable of learning Overheat via TM50.
+- Manectric can now use TM35, Flamethrower and TM50, Overheat.
+- Moltres can now use TM22, Solarbeam.
+
+Ability Changes
+- Magby & Magmar now get Flash Fire.
+- Elekid & Electabuzz now get Volt Absorb.
+- Smoochum & Jynx now get Insomnia.
+
+Evolutionary Changes
+- Smoochum, Elekid and Magby now evolve at Level 24 instead of Level 30.
+- Haunter now evolves into Gengar at Level 38.
+- Kadabra now evolves into Alakazam at Level 36.
+- Machoke now evolves into Machmap at Level 40.
+- Graveler now evolves into Golem at Level 38.
+- Poliwhirl now evolves into Politoed at Level 35.
+- Slowpoke now evolves into Slowking through the use of a Water Stone.
+- Onix now evolves into Steelix at Level 32.
+- Scyther now evolves into Scizor at Level 42.
+- Porygon now evolves into Porygon2 at Level 31.
+- Seadra now evolves into Kingdra at Level 44.
+- Clamperl now evolves into Huntail or Gorebyss at Level 18, depending on personality value. (Same as Wurmple.)
+- Eevee now evolves into Espeon with a Sun Stone.
+- Eevee now evolves into Umbreon with a Moon Stone.
+- Feebas now evolves into Milotic at Level 20.
+
+Stat Changes
+- Smoochum, Elekid and Magby have had +10 added on to each of their base stats.
+- Jynx, Electabuzz and Magmar have had +10 added on to each of their base stats.
+- Luvdisc has had +20 added to each of its base stats.
+- Ralts has had +10 added to each of its base stats.
+- Kirlia has had +20 added to each of its base stats.
+- Slugma has had +10 added to each of its base stats.
+- Magcargo has had +10 added to each of its base stats [minus Speed] except for Special Attack where +30 has been added instead.
+- Electrode has had Special Attack boosted from 80 to 100.
+- Corsola has had +20 added to each of its base stats.
+- Wild Marowak now have a much higher chance of holding a Thick Club.
+- Wild Farfetch'd are very likely to be holding a Stick.
+- Wild Pikachu may hold a Thunderstone but can no longer hold a Light Ball.
+- Wild Shellder may hold a Water Stone but can no longer hold a Big Pearl.
+- Wild Oddish may hold a Leaf Stone.
+- Wild Growlithe/Vulpix may hold a Fire Stone.
+- Wild Solrock hold Sun Stones with a much greater frequency.
+- Wild Lunatone hold Moon Stones with a much greater frequency.
+- Sneasel now has a low chance of holding a Scope Lens.
+- Chansey now has a high chance of holding a Soothe Bell.
+- Clamperl now has a high chance of holding a Pearl and a low chance of holding a Big Pearl, but can no longer hold a Blue Shard.
+- Pichu has a very high chance of holding a Light Ball.
+- Raichu has a low chance of holding a Light Ball.
+- Yanma has had +20 added to each of its base stats.
+- Zubat's base happiness is now 140.
+- Golbat's base happiness is now 140.
+- Togepi's base happiness is now 180.
+- Farfetch'd has had +20 added to each of its base stats.
+- Castform's Special Attack base is now 100.
+- Spinda has received +20 to its HP, Attack, Special Attack and Speed.
+- Articuno, Zapdos and Moltres now have catch rates of 5.
+- Mewtwo, Lugia & Ho-oh now have a catch rate of 1.
+- The Beldum line Pokemon now have a catch rate of 45.
+- The three beasts and the Regi also have catch rates of 5.
+
+Attack Changes
+- Leaf Blade has been boosted from 70 to 90 power.
+- Dig has been boosted from 60 to 80 power.
+- Fly has been boosted from 70 to 90 power.
+- Hypnosis has been boosted from 60% to 70% accuarcy.
+- Blaze Kick has been boosted from 85 to 90 power.
+- Weather Ball's PP has been boosted from 10 to 20.
+- Giga Drain's PP has been boosted from 5 to 10.
+- Hyper Beam now has 65% accuarcy, but no longer needs a charging turn.
+- Blast Burn is now 50% accuarcy, but has 170 power and instead of needing a charging turn has a 40% chance of burning the opponent.
+- Hydro Cannon is now 45% accuarcy, but has 170 power and instead of needing a charging turn has a 40% of freezing the opponent.
+- Frenzy Plant is now 55% accuarcy, but has 170 power and instead of needing a charging turn has a 40% of poisoning the opponent.
+- Sky Attack now has 70% accuarcy, but no longer needs a charging turn. It also only flinches 20% of the time.
+- Luster Purge & Mist Ball are now 100 power.
