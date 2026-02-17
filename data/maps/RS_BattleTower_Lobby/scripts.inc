@@ -16,7 +16,7 @@ BattleTower_Lobby_EventScript_16029C::
 	compare VAR_RESULT, TRUE
 	goto_if_eq BattleTower_Lobby_EventScript_HideScott
 	callnative GetBestBattleTowerStreakToVar0x8007
-	compare VAR_0x8007, 28
+	compare VAR_0x8007, 2
 	goto_if_lt BattleTower_Lobby_EventScript_HideScott
 	clearflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
 	callnative TryInitBattleTowerAwardManObjectEvent
