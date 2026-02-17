@@ -119,3 +119,16 @@ PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy::
     .string "“The lovely and sweet\n"
     .string "CLEFAIRY”$"
 
+PalletTown_RivalsHouse_Text_EonTicket::
+    .string "DAISY: I heard about your achievements!\n"
+	.string "How many people you've helped!\l"
+	.string "That's fantastic!\n"
+	.string "I want you to have this!$"
+
+PalletTown_RivalsHouse_Text_EonTicketExplained::
+    .string "DAISY: Bring that ticket to your\n"
+    .string "friend at the VERMILION HARBOR.\p"
+    .string "He'll be able to take you to an\n"
+    .string "island that's not far from here.\p"
+    .string "There's a nice little grove there,\n"
+    .string "and it's a good place to relax!$"

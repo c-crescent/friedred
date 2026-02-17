@@ -110,7 +110,7 @@ PalletTown_RivalsHouse_EventScript_Daisy::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_DAISY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_HIDE_CERULEAN_CAVE_GUARD, PalletTown_RivalsHouse_EventScript_GiveFinalStarter
+	goto_if_set FLAG_HIDE_CERULEAN_CAVE_GUARD, PalletTown_RivalsHouse_EventScript_Eon_Ticket
 PalletTown_RivalsHouse_EventScript_DaisyRegular::
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_RivalsHouse_EventScript_GroomMon
 	compare RECEIVED_TOWN_MAP, TRUE
@@ -125,6 +125,16 @@ PalletTown_RivalsHouse_EventScript_DaisyRegular::
 	closemessage
 	applymovement LOCALID_DAISY, Common_Movement_FaceOriginalDirection
 	waitmovement 0
+	release
+	end
+
+PalletTown_RivalsHouse_EventScript_Eon_Ticket::
+	checkitem ITEM_EON_TICKET, 1
+	compare VAR_RESULT, TRUE
+	goto PalletTown_RivalsHouse_EventScript_DaisyRegular
+	msgbox PalletTown_RivalsHouse_Text_EonTicket, MSGBOX_DEFAULT
+	giveitem ITEM_EON_TICKET, 1
+	msgbox PalletTown_RivalsHouse_Text_EonTicketExplained, MSGBOX_DEFAULT
 	release
 	end
 
