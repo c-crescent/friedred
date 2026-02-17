@@ -26,7 +26,7 @@ BattleTower_Lobby_EventScript_CheckShouldGiveEonTicket::
 	callnative GetBestBattleTowerStreakToVar0x8007
 	compare VAR_0x8007, 56
 	goto_if_lt BattleTower_Lobby_EventScript_HideScott
-	clearflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
+	; clearflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
 	callnative TryInitBattleTowerAwardManObjectEvent
 	return
 
