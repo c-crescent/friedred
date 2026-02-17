@@ -2495,7 +2495,7 @@ const struct WildPokemon sRoute5_FireRed_LandMons[] =
     { 17, 17, SPECIES_PIDGEY },
     { 18, 18, SPECIES_TAILLOW },
     { 17, 17, SPECIES_MEOWTH },
-    { 19, 19, SPECIES_CASTFORM },
+    { 19, 19, SPECIES_SMEARGLE },
 };
 
 const struct WildPokemonInfo sRoute5_FireRed_LandMonsInfo = { 21, sRoute5_FireRed_LandMons };
@@ -6621,7 +6621,7 @@ const struct WildPokemon sRoute5_LeafGreen_LandMons[] =
     { 17, 17, SPECIES_PIDGEY },
     { 18, 18, SPECIES_TAILLOW },
     { 17, 17, SPECIES_MEOWTH },
-    { 19, 19, SPECIES_CASTFORM },
+    { 19, 19, SPECIES_SMEARGLE },
 };
 
 const struct WildPokemonInfo sRoute5_LeafGreen_LandMonsInfo = { 21, sRoute5_LeafGreen_LandMons };
@@ -7880,7 +7880,7 @@ const struct WildPokemonInfo sRoute20_Underwater_LeafGreen_LandMonsInfo = { 7, s
 const struct WildPokemon sSafariZone_NorthWest_LandMons[] =
 {
     { 53, 53, SPECIES_TAUROS },
-    { 54, 54, SPECIES_CASTFORM },
+    { 54, 54, SPECIES_SMEARGLE },
     { 55, 55, SPECIES_RHYHORN },
     { 56, 56, SPECIES_TROPIUS },
     { 54, 54, SPECIES_VILEPLUME },
@@ -7963,7 +7963,7 @@ const struct WildPokemonInfo sSafariZone_NorthWest_RockSmashMonsInfo = { 25, sSa
 const struct WildPokemon sSafariZone_NorthEast_LandMons[] =
 {
     { 53, 53, SPECIES_TAUROS },
-    { 54, 54, SPECIES_CASTFORM },
+    { 54, 54, SPECIES_SMEARGLE },
     { 55, 55, SPECIES_RHYHORN },
     { 56, 56, SPECIES_TROPIUS },
     { 54, 54, SPECIES_VILEPLUME },
