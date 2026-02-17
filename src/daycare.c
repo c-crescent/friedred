@@ -479,14 +479,36 @@ static void ShiftDaycareSlots(struct DayCare *daycare)
     }
 }
 
+static u8 GetCurrentLevelCap(void)
+{
+    s32 i;
+    
+    extern const u16 levelCapFlags[NUM_HARD_CAPS];
+    extern const u16 levelCaps[NUM_HARD_CAPS];
+    
+    // Check badges from highest to lowest
+    for (i = NUM_HARD_CAPS - 1; i >= 0; i--) 
+    {
+        if (FlagGet(levelCapFlags[i]))
+            return levelCaps[i];
+    }
+    
+    // No badges = starting cap
+    return 15;
+}
+
 static void ApplyDaycareExperience(struct Pokemon *mon)
 {
     s32 i;
     bool8 firstMove;
     u16 learnedMove;
+    u8 currentLevel;
+    u8 levelCap = GetCurrentLevelCap();
 
     for (i = 0; i < MAX_LEVEL; i++)
     {
+        if (currentLevel >= levelCap)
+            break;
         // Add the mon's gained daycare experience level by level until it can't level up anymore.
         if (TryIncrementMonLevel(mon))
         {
@@ -521,7 +543,7 @@ static u16 TakeSelectedPokemonFromDaycare(struct DaycareMon *daycareMon)
     BoxMonToMon(&daycareMon->mon, &pokemon);
     PopulateBoxHpAndStatusToPartyMon(&pokemon);
 
-    if (GetMonData(&pokemon, MON_DATA_LEVEL) != MAX_LEVEL)
+    if (GetMonData(&pokemon, MON_DATA_LEVEL) < GetCurrentLevelCap())
     {
         experience = GetMonData(&pokemon, MON_DATA_EXP) + daycareMon->steps;
         SetMonData(&pokemon, MON_DATA_EXP, &experience);
@@ -572,10 +594,16 @@ u16 TakePokemonFromDaycare(void)
 static u8 GetLevelAfterDaycareSteps(struct BoxPokemon *mon, u32 steps)
 {
     struct BoxPokemon tempMon = *mon;
+    u8 level;
 
     u32 experience = GetBoxMonData(mon, MON_DATA_EXP) + steps;
     SetBoxMonData(&tempMon, MON_DATA_EXP,  &experience);
-    return GetLevelFromBoxMonExp(&tempMon);
+
+    level = GetLevelFromBoxMonExp(&tempMon);
+    if (level > GetCurrentLevelCap())
+        level = GetCurrentLevelCap();
+    
+    return level;
 }
 
 static u8 GetNumLevelsGainedFromSteps(struct DaycareMon *daycareMon)
@@ -585,6 +613,10 @@ static u8 GetNumLevelsGainedFromSteps(struct DaycareMon *daycareMon)
 
     levelBefore = GetLevelFromBoxMonExp(&daycareMon->mon);
     levelAfter = GetLevelAfterDaycareSteps(&daycareMon->mon, daycareMon->steps);
+
+    if (levelAfter > GetCurrentLevelCap())
+        levelAfter = GetCurrentLevelCap();
+
     return levelAfter - levelBefore;
 }
 

@@ -1,5 +1,6 @@
 #ifndef GUARD_EVENT_DATA_H
 #define GUARD_EVENT_DATA_H
+#define NUM_HARD_CAPS 9
 
 #include "global.h"
 
@@ -22,6 +23,9 @@ extern u16 gSpecialVar_MonBoxId;
 extern u16 gSpecialVar_MonBoxPos;
 extern u16 gSpecialVar_TextColor;
 extern u16 gSpecialVar_PrevTextColor;
+
+extern const u16 levelCapFlags[NUM_HARD_CAPS];
+extern const u16 levelCaps[NUM_HARD_CAPS];
 
 void InitEventData(void);
 void ClearTempFieldEventData(void);
