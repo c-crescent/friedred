@@ -199,7 +199,7 @@ const struct WildPokemon sViridianForest_FireRed_LandMons[] =
     { 5, 5, SPECIES_PIKACHU },
     { 6, 6, SPECIES_METAPOD },
     { 6, 6, SPECIES_KAKUNA },
-    { 9, 9, SPECIES_PIDGEOTTO },
+    { 9, 9, SPECIES_PINSIR },
 };
 
 const struct WildPokemonInfo sViridianForest_FireRed_LandMonsInfo = { 14, sViridianForest_FireRed_LandMons };
@@ -260,7 +260,7 @@ const struct WildPokemonInfo sMtMoonB2F_FireRed_LandMonsInfo = { 7, sMtMoonB2F_F
 
 const struct WildPokemon sSSAnneExterior_FireRed_WaterMons[] =
 {
-    { 5, 10, SPECIES_TENTACOOL },
+    { 5, 10, SPECIES_WOOPER },
     { 10, 20, SPECIES_TENTACOOL },
     { 20, 30, SPECIES_TENTACOOL },
     { 30, 35, SPECIES_TENTACOOL },
@@ -762,7 +762,7 @@ const struct WildPokemon sRockTunnel1F_FireRed_LandMons[] =
     { 22, 22, SPECIES_MAKUHITA },
     { 23, 23, SPECIES_BELDUM },
     { 22, 22, SPECIES_ONIX },
-    { 23, 23, SPECIES_LARVITAR },
+    { 23, 23, SPECIES_GLALIE },
     { 5, 5, SPECIES_CHARMANDER },
 };
 
@@ -791,8 +791,8 @@ const struct WildPokemon sRockTunnelB1F_FireRed_RockSmashMons[] =
     { 5, 20, SPECIES_GEODUDE },
     { 10, 20, SPECIES_GEODUDE },
     { 15, 30, SPECIES_ONIX },
-    { 25, 40, SPECIES_GRAVELER },
-    { 30, 40, SPECIES_GRAVELER },
+    { 25, 40, SPECIES_PHANPY },
+    { 30, 40, SPECIES_SHUCKLE },
 };
 
 const struct WildPokemonInfo sRockTunnelB1F_FireRed_RockSmashMonsInfo = { 50, sRockTunnelB1F_FireRed_RockSmashMons };
@@ -1026,7 +1026,7 @@ const struct WildPokemon sPokemonTower7F_FireRed_LandMons[] =
     { 34, 34, SPECIES_CUBONE },
     { 32, 32, SPECIES_CUBONE },
     { 34, 34, SPECIES_MISDREAVUS },
-    { 36, 36, SPECIES_MISDREAVUS },
+    { 36, 36, SPECIES_KANGASKHAN },
 };
 
 const struct WildPokemonInfo sPokemonTower7F_FireRed_LandMonsInfo = { 10, sPokemonTower7F_FireRed_LandMons };
@@ -1073,7 +1073,7 @@ const struct WildPokemon sMtEmberExterior_FireRed_RockSmashMons[] =
     { 10, 20, SPECIES_GEODUDE },
     { 15, 30, SPECIES_GEODUDE },
     { 25, 40, SPECIES_GRAVELER },
-    { 30, 40, SPECIES_GRAVELER },
+    { 30, 40, SPECIES_HERACROSS },
 };
 
 const struct WildPokemonInfo sMtEmberExterior_FireRed_RockSmashMonsInfo = { 50, sMtEmberExterior_FireRed_RockSmashMons };
@@ -2413,8 +2413,8 @@ const struct WildPokemon sRoute2_FireRed_LandMons[] =
     { 5, 5, SPECIES_SENTRET },
     { 5, 5, SPECIES_ZIGZAGOON },
     { 4, 4, SPECIES_HOPPIP },
-    { 5, 5, SPECIES_HOOTHOOT },
-    { 6, 6, SPECIES_HOPPIP },
+    { 5, 5, SPECIES_TORCHIC },
+    { 5, 5, SPECIES_TREECKO },
 };
 
 const struct WildPokemonInfo sRoute2_FireRed_LandMonsInfo = { 21, sRoute2_FireRed_LandMons };
@@ -2440,7 +2440,7 @@ const struct WildPokemonInfo sRoute3_FireRed_LandMonsInfo = { 21, sRoute3_FireRe
 const struct WildPokemon sRoute4_FireRed_LandMons[] =
 {
     { 16, 16, SPECIES_ELECTRIKE },
-    { 14, 14, SPECIES_PIKACHU },
+    { 14, 14, SPECIES_TEDDIURSA },
     { 15, 15, SPECIES_MAGNEMITE },
     { 17, 17, SPECIES_EKANS },
     { 17, 17, SPECIES_SANDSHREW },
@@ -2461,7 +2461,7 @@ const struct WildPokemon sRoute4_FireRed_WaterMons[] =
     { 10, 20, SPECIES_TENTACOOL },
     { 20, 30, SPECIES_TENTACOOL },
     { 30, 35, SPECIES_TENTACOOL },
-    { 35, 40, SPECIES_TENTACOOL },
+    { 35, 40, SPECIES_OCTILLERY },
 };
 
 const struct WildPokemonInfo sRoute4_FireRed_WaterMonsInfo = { 2, sRoute4_FireRed_WaterMons };
@@ -2495,14 +2495,14 @@ const struct WildPokemon sRoute5_FireRed_LandMons[] =
     { 17, 17, SPECIES_PIDGEY },
     { 18, 18, SPECIES_TAILLOW },
     { 17, 17, SPECIES_MEOWTH },
-    { 19, 19, SPECIES_TAILLOW },
+    { 19, 19, SPECIES_CASTFORM },
 };
 
 const struct WildPokemonInfo sRoute5_FireRed_LandMonsInfo = { 21, sRoute5_FireRed_LandMons };
 
 const struct WildPokemon sRoute6_FireRed_LandMons[] =
 {
-    { 17, 17, SPECIES_MEOWTH },
+    { 17, 17, SPECIES_STANTLER },
     { 18, 18, SPECIES_PIDGEY },
     { 17, 17, SPECIES_TAILLOW },
     { 18, 18, SPECIES_TAILLOW },
@@ -2747,7 +2747,7 @@ const struct WildPokemon sRoute13_FireRed_LandMons[] =
     { 35, 35, SPECIES_SEVIPER },
     { 34, 34, SPECIES_DITTO },
     { 33, 33, SPECIES_DITTO },
-    { 35, 35, SPECIES_DITTO },
+    { 35, 35, SPECIES_SCYTHER },
 };
 
 const struct WildPokemonInfo sRoute13_FireRed_LandMonsInfo = { 21, sRoute13_FireRed_LandMons };
@@ -2936,7 +2936,7 @@ const struct WildPokemon sRoute21North_FireRed_LandMons[] =
     { 38, 38, SPECIES_LICKITUNG },
     { 34, 34, SPECIES_MR_MIME },
     { 37, 37, SPECIES_LICKITUNG },
-    { 39, 39, SPECIES_TANGELA },
+    { 39, 39, SPECIES_TROPIUS },
 };
 
 const struct WildPokemonInfo sRoute21North_FireRed_LandMonsInfo = { 14, sRoute21North_FireRed_LandMons };
@@ -2980,7 +2980,7 @@ const struct WildPokemon sRoute21South_FireRed_LandMons[] =
     { 26, 26, SPECIES_TANGELA },
     { 18, 18, SPECIES_TANGELA },
     { 27, 27, SPECIES_TANGELA },
-    { 17, 17, SPECIES_TANGELA },
+    { 17, 17, SPECIES_CHANSEY },
     { 28, 28, SPECIES_TAUROS },
 };
 
@@ -3061,7 +3061,7 @@ const struct WildPokemonInfo sRoute22_FireRed_FishingMonsInfo = { 20, sRoute22_F
 const struct WildPokemon sRoute23_FireRed_LandMons[] =
 {
     { 36, 36, SPECIES_KECLEON },
-    { 40, 40, SPECIES_FEAROW },
+    { 40, 40, SPECIES_SKARMORY },
     { 37, 37, SPECIES_SNUBBULL },
     { 36, 36, SPECIES_SWABLU },
     { 38, 38, SPECIES_KECLEON },
@@ -3277,7 +3277,7 @@ const struct WildPokemon sPewterCity_FireRed_LandMons[] =
     { 10, 10, SPECIES_SUNKERN },
     { 11, 11, SPECIES_NOSEPASS },
     { 9, 9, SPECIES_SUNKERN },
-    { 13, 13, SPECIES_NOSEPASS },
+    { 5, 5, SPECIES_MUDKIP },
     { 5, 5, SPECIES_TOGEPI },
 };
 
@@ -4352,7 +4352,7 @@ const struct WildPokemon sViridianForest_LeafGreen_LandMons[] =
     { 5, 5, SPECIES_PIKACHU },
     { 6, 6, SPECIES_METAPOD },
     { 6, 6, SPECIES_KAKUNA },
-    { 9, 9, SPECIES_PIDGEOTTO },
+    { 9, 9, SPECIES_PINSIR },
 };
 
 const struct WildPokemonInfo sViridianForest_LeafGreen_LandMonsInfo = { 14, sViridianForest_LeafGreen_LandMons };
@@ -4413,7 +4413,7 @@ const struct WildPokemonInfo sMtMoonB2F_LeafGreen_LandMonsInfo = { 7, sMtMoonB2F
 
 const struct WildPokemon sSSAnneExterior_LeafGreen_WaterMons[] =
 {
-    { 5, 10, SPECIES_TENTACOOL },
+    { 5, 10, SPECIES_WOOPER },
     { 10, 20, SPECIES_TENTACOOL },
     { 20, 30, SPECIES_TENTACOOL },
     { 30, 35, SPECIES_TENTACOOL },
@@ -4915,7 +4915,7 @@ const struct WildPokemon sRockTunnel1F_LeafGreen_LandMons[] =
     { 22, 22, SPECIES_MAKUHITA },
     { 23, 23, SPECIES_BELDUM },
     { 22, 22, SPECIES_ONIX },
-    { 23, 23, SPECIES_LARVITAR },
+    { 23, 23, SPECIES_GLALIE },
     { 5, 5, SPECIES_CHARMANDER },
 };
 
@@ -4944,8 +4944,8 @@ const struct WildPokemon sRockTunnelB1F_LeafGreen_RockSmashMons[] =
     { 5, 20, SPECIES_GEODUDE },
     { 10, 20, SPECIES_GEODUDE },
     { 15, 30, SPECIES_ONIX },
-    { 25, 40, SPECIES_GRAVELER },
-    { 30, 40, SPECIES_GRAVELER },
+    { 25, 40, SPECIES_PHANPY },
+    { 30, 40, SPECIES_SHUCKLE },
 };
 
 const struct WildPokemonInfo sRockTunnelB1F_LeafGreen_RockSmashMonsInfo = { 50, sRockTunnelB1F_LeafGreen_RockSmashMons };
@@ -5179,7 +5179,7 @@ const struct WildPokemon sPokemonTower7F_LeafGreen_LandMons[] =
     { 34, 34, SPECIES_CUBONE },
     { 32, 32, SPECIES_CUBONE },
     { 34, 34, SPECIES_MISDREAVUS },
-    { 36, 36, SPECIES_MISDREAVUS },
+    { 36, 36, SPECIES_KANGASKHAN },
 };
 
 const struct WildPokemonInfo sPokemonTower7F_LeafGreen_LandMonsInfo = { 10, sPokemonTower7F_LeafGreen_LandMons };
@@ -5226,7 +5226,7 @@ const struct WildPokemon sMtEmberExterior_LeafGreen_RockSmashMons[] =
     { 10, 20, SPECIES_GEODUDE },
     { 15, 30, SPECIES_GEODUDE },
     { 25, 40, SPECIES_GRAVELER },
-    { 30, 40, SPECIES_GRAVELER },
+    { 30, 40, SPECIES_HERACROSS },
 };
 
 const struct WildPokemonInfo sMtEmberExterior_LeafGreen_RockSmashMonsInfo = { 50, sMtEmberExterior_LeafGreen_RockSmashMons };
@@ -6539,8 +6539,8 @@ const struct WildPokemon sRoute2_LeafGreen_LandMons[] =
     { 5, 5, SPECIES_SENTRET },
     { 5, 5, SPECIES_ZIGZAGOON },
     { 4, 4, SPECIES_HOPPIP },
-    { 5, 5, SPECIES_HOOTHOOT },
-    { 6, 6, SPECIES_HOPPIP },
+    { 5, 5, SPECIES_TORCHIC },
+    { 5, 5, SPECIES_TREECKO },
 };
 
 const struct WildPokemonInfo sRoute2_LeafGreen_LandMonsInfo = { 21, sRoute2_LeafGreen_LandMons };
@@ -6566,7 +6566,7 @@ const struct WildPokemonInfo sRoute3_LeafGreen_LandMonsInfo = { 21, sRoute3_Leaf
 const struct WildPokemon sRoute4_LeafGreen_LandMons[] =
 {
     { 16, 16, SPECIES_ELECTRIKE },
-    { 14, 14, SPECIES_PIKACHU },
+    { 14, 14, SPECIES_TEDDIURSA },
     { 15, 15, SPECIES_MAGNEMITE },
     { 17, 17, SPECIES_EKANS },
     { 17, 17, SPECIES_SANDSHREW },
@@ -6587,7 +6587,7 @@ const struct WildPokemon sRoute4_LeafGreen_WaterMons[] =
     { 10, 20, SPECIES_TENTACOOL },
     { 20, 30, SPECIES_TENTACOOL },
     { 30, 35, SPECIES_TENTACOOL },
-    { 35, 40, SPECIES_TENTACOOL },
+    { 35, 40, SPECIES_OCTILLERY },
 };
 
 const struct WildPokemonInfo sRoute4_LeafGreen_WaterMonsInfo = { 2, sRoute4_LeafGreen_WaterMons };
@@ -6621,14 +6621,14 @@ const struct WildPokemon sRoute5_LeafGreen_LandMons[] =
     { 17, 17, SPECIES_PIDGEY },
     { 18, 18, SPECIES_TAILLOW },
     { 17, 17, SPECIES_MEOWTH },
-    { 19, 19, SPECIES_TAILLOW },
+    { 19, 19, SPECIES_CASTFORM },
 };
 
 const struct WildPokemonInfo sRoute5_LeafGreen_LandMonsInfo = { 21, sRoute5_LeafGreen_LandMons };
 
 const struct WildPokemon sRoute6_LeafGreen_LandMons[] =
 {
-    { 17, 17, SPECIES_MEOWTH },
+    { 17, 17, SPECIES_STANTLER },
     { 18, 18, SPECIES_PIDGEY },
     { 17, 17, SPECIES_TAILLOW },
     { 18, 18, SPECIES_TAILLOW },
@@ -6873,7 +6873,7 @@ const struct WildPokemon sRoute13_LeafGreen_LandMons[] =
     { 35, 35, SPECIES_SEVIPER },
     { 34, 34, SPECIES_DITTO },
     { 33, 33, SPECIES_DITTO },
-    { 35, 35, SPECIES_DITTO },
+    { 35, 35, SPECIES_SCYTHER },
 };
 
 const struct WildPokemonInfo sRoute13_LeafGreen_LandMonsInfo = { 21, sRoute13_LeafGreen_LandMons };
@@ -7062,7 +7062,7 @@ const struct WildPokemon sRoute21North_LeafGreen_LandMons[] =
     { 38, 38, SPECIES_LICKITUNG },
     { 34, 34, SPECIES_MR_MIME },
     { 37, 37, SPECIES_LICKITUNG },
-    { 39, 39, SPECIES_TANGELA },
+    { 39, 39, SPECIES_TROPIUS },
 };
 
 const struct WildPokemonInfo sRoute21North_LeafGreen_LandMonsInfo = { 14, sRoute21North_LeafGreen_LandMons };
@@ -7106,7 +7106,7 @@ const struct WildPokemon sRoute21South_LeafGreen_LandMons[] =
     { 26, 26, SPECIES_TANGELA },
     { 18, 18, SPECIES_TANGELA },
     { 27, 27, SPECIES_TANGELA },
-    { 17, 17, SPECIES_TANGELA },
+    { 17, 17, SPECIES_CHANSEY },
     { 28, 28, SPECIES_TAUROS },
 };
 
@@ -7187,7 +7187,7 @@ const struct WildPokemonInfo sRoute22_LeafGreen_FishingMonsInfo = { 20, sRoute22
 const struct WildPokemon sRoute23_LeafGreen_LandMons[] =
 {
     { 36, 36, SPECIES_KECLEON },
-    { 40, 40, SPECIES_FEAROW },
+    { 40, 40, SPECIES_SKARMORY },
     { 37, 37, SPECIES_SNUBBULL },
     { 36, 36, SPECIES_SWABLU },
     { 38, 38, SPECIES_KECLEON },
@@ -7403,7 +7403,7 @@ const struct WildPokemon sPewterCity_LeafGreen_LandMons[] =
     { 10, 10, SPECIES_SUNKERN },
     { 11, 11, SPECIES_NOSEPASS },
     { 9, 9, SPECIES_SUNKERN },
-    { 13, 13, SPECIES_NOSEPASS },
+    { 5, 5, SPECIES_MUDKIP },
     { 5, 5, SPECIES_TOGEPI },
 };
 
