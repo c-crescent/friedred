@@ -3150,9 +3150,9 @@ const u16 levelCapFlags[NUM_HARD_CAPS] = {
 };
 
 const u16 levelCaps[NUM_HARD_CAPS] = {
-    22, 26, 31, 
-    44, 46, 51, 54, 
-    64, 100
+    23, 27, 35,
+    50, 53, 58, 
+    61, 69, 100
 };
 
 static u8 GetCurrentLevelCap(void)
@@ -3164,7 +3164,7 @@ static u8 GetCurrentLevelCap(void)
         if (FlagGet(levelCapFlags[i]))
             return levelCaps[i];
     }
-    return 15; // cap without badge
+    return 14; // cap without badge
 }
 
 static void Cmd_getexp(void)

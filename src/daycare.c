@@ -494,7 +494,7 @@ static u8 GetCurrentLevelCap(void)
     }
     
     // No badges = starting cap
-    return 15;
+    return 14;
 }
 
 static void ApplyDaycareExperience(struct Pokemon *mon)
