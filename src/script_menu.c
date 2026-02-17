@@ -373,20 +373,20 @@ static const struct MenuAction sMultichoiceList_BikeShop[] = {
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerPokemonPrizes_FR[] = {
-    { gText_Abra_180Coins },
-    { gText_Clefairy_500Coins },
-    { gText_Dratini_2800Coins },
-    { gText_Scyther_5500Coins },
-    { gText_Porygon_9999Coins },
+    { gText_Wynaut_100Coins },
+    { gText_Castform_500Coins },
+    { gText_Dratini_1000Coins },
+    { gText_Scyther_2000Coins },
+    { gText_Porygon_3333Coins },
     { gText_NoThanks_2 }
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerPokemonPrizes_LG[] = {
-    { gText_Abra_120Coins },
-    { gText_Clefairy_750Coins },
-    { gText_Pinsir_2500Coins },
-    { gText_Dratini_4600Coins },
-    { gText_Porygon_6500Coins },
+    { gText_Wynaut_100Coins },
+    { gText_Castform_500Coins },
+    { gText_Pinsir_1000Coins },
+    { gText_Dratini_2000Coins },
+    { gText_Porygon_3333Coins },
     { gText_NoThanks_2 }
 };
 
