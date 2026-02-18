@@ -41,11 +41,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_DOUBLE_SLAP] =
     {
-        .effect = EFFECT_MULTI_HIT,
-        .power = 15,
+        .effect = EFFECT_DOUBLE_HIT,
+        .power = 30,
         .type = TYPE_NORMAL,
-        .accuracy = 85,
-        .pp = 10,
+        .accuracy = 100,
+        .pp = 30,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
