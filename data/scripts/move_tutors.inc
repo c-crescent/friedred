@@ -1132,7 +1132,7 @@ Text_FuryCutterReteach::
 	.string "FURY CUTTER over and over so they\l"
 	.string "can keep using it over and over?\p"
 	.string "I can teach you FURY CUTTER\n"
-	.string "again if you give me ¥5000.$"
+	.string "again if you give me ¥1000.$"
 
 Text_FuryCutterReteach2::
     .string "Want me to teach FURY CUTTER\n"
@@ -1141,7 +1141,7 @@ Text_FuryCutterReteach2::
 Text_FuryCutterNotEnoughMoney::
 	.string "I can't teach FURY CUTTER over\n"
 	.string "and over if you can't pay!\p"
-	.string "Come back with ¥5000 next\n"
+	.string "Come back with ¥1000 next\n"
 	.string "time and I'll teach it again.$"
 
 Route24_EventScript_RolloutTutor::
@@ -1232,7 +1232,7 @@ Text_RolloutReteach::
 	.string "Oh, do you want me to teach\n"
 	.string "ROLLOUT to your POKéMON again?\p"
 	.string "I can do it, but I have to charge\n"
-	.string "¥5000 for my services!$"
+	.string "¥1000 for my services!$"
 
 Text_RolloutReteach2::
     .string "Want me to teach ROLLOUT\n"
@@ -1244,7 +1244,7 @@ Text_RolloutNotEnoughMoney::
 	.string "How can I teach you ROLLOUT if\n"
 	.string "you don't have a bankroll to pay\l"
 	.string "me with?\p"
-	.string "Come back to me with ¥5000 and\n"
+	.string "Come back to me with ¥1000 and\n"
 	.string "we'll get your POKéMON rolling!$"
 
 SaffronCity_EventScript_DynamicPunchTutor::
@@ -1344,7 +1344,7 @@ Text_DynamicPunchReteach::
 	.string "losing in the GYM!\p"
 	.string "Do you want me to teach your\n"
 	.string "POKéMON DYNAMICPUNCH again?\p"
-	.string "I'll do it for ¥5000!\n"
+	.string "I'll do it for ¥1000!\n"
 	.string "I need to buy REVIVES!$"
 
 Text_DynamicPunchReteach2::
@@ -1356,7 +1356,7 @@ Text_DynamicPunchNotEnoughMoney::
 	.string "money for POKéMON medicine?\p"
 	.string "Using items in battle is the only\n"
 	.string "possible way I can win here!\p"
-	.string "Let me know when you have ¥5000.\n"
+	.string "Let me know when you have ¥1000.\n"
 	.string "Until then…\p"
 	.string "Argh! Punch! Punch! Punch!\n"
 	.string "Punch! Punch! Punch!$"
@@ -1468,7 +1468,7 @@ Text_SleepTalkReteach::
 	.string "I lost my bonus by always\n"
 	.string "oversleeping on my breaks…\p"
 	.string "I'll do it for some extra money.\n"
-	.string "How does ¥5000 sound?$"
+	.string "How does ¥1000 sound?$"
 
 Text_SleepTalkReteach2::
     .string "Are you interested in teaching\n"
@@ -1581,7 +1581,7 @@ Text_NightmareReteach::
 	.string "my nightmares, but…\p"
 	.string "Are you back to teach your\n"
 	.string "POKéMON NIGHTMARE again?\p"
-	.string "If you have ¥5000, I'll show\n"
+	.string "If you have ¥1000, I'll show\n"
 	.string "one of them how to use it.$"
 
 Text_NightmareReteach2::
@@ -1589,7 +1589,7 @@ Text_NightmareReteach2::
 	.string "to learn NIGHTMARE?$"
 
 Text_NightmareNotEnoughMoney::
-	.string "You don't have ¥5000?\p"
+	.string "You don't have ¥1000?\p"
 	.string "I don't want to keep reliving\n"
 	.string "these nightmares for nothing.\p"
 	.string "Come back when you can pay me\n"
@@ -1702,7 +1702,7 @@ Text_SelfdestructReteach::
 	.string "again before the inevitable occurs?\p"
 	.string "I'm taking donations for the\n"
 	.string "evacuation plans.\p"
-	.string "Donate ¥5000 and I'll teach one of\n"
+	.string "Donate ¥1000 and I'll teach one of\n"
 	.string "your POKéMON SELFDESTRUCT.$"
 
 Text_SelfdestructReteach2::
@@ -1714,7 +1714,7 @@ Text_SelfdestructNotEnoughMoney::
 	.string "support we can get to prepare\l"
 	.string "for the eruption.\p"
 	.string "I can't offer you my services\n"
-	.string "for less than a ¥5000 donation.$"
+	.string "for less than a ¥1000 donation.$"
 
 MtEmber_Exterior_EventScript_SkyAttackTutor::
 	lock
@@ -1813,7 +1813,7 @@ Text_SkyAttackReteach::
 	.string "feels amazing, right?\p"
 	.string "If you're interested, I can\n"
 	.string "teach your POKéMON SKY ATTACK.\p"
-	.string "This time, though, I'll need ¥5000\n"
+	.string "This time, though, I'll need ¥1000\n"
 	.string "to do it!$"
 
 Text_SkyAttackReteach2::
@@ -1824,7 +1824,7 @@ Text_SkyAttackNotEnoughMoney::
 	.string "You don't have enough money,\n"
 	.string "what a shame.\p"
 	.string "You'll have to climb back up here\n"
-	.string "again once you have ¥5000!$"
+	.string "again once you have ¥1000!$"
 
 Route10_EventScript_SwaggerTutor::
 	lock
@@ -1922,7 +1922,7 @@ Text_SwaggerReteach::
 	.string "I can teach your POKéMON how\n"
 	.string "to use SWAGGER again.\p"
 	.string "However, the price of learning how\n"
-	.string "to swagger like me is a cool ¥5000.$"
+	.string "to swagger like me is a cool ¥1000.$"
 
 Text_SwaggerReteach2::
 	.string "Do you want me to teach the move\n"
@@ -1930,4 +1930,4 @@ Text_SwaggerReteach2::
 
 Text_SwaggerNotEnoughMoney::
 	.string "No money, no SWAGGER!\n"
-	.string "Come back with ¥5000 next time!$"
+	.string "Come back with ¥1000 next time!$"
