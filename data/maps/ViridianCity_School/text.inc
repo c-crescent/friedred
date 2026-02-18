@@ -7,6 +7,15 @@ ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "Be sure to read what's on the\n"
     .string "blackboard carefully!$"
 
+ViridianCity_School_Text_NatureChange::
+    .string "Would you like to change\n"
+    .string "the NATURE of your 1st POKéMON?\p"
+    .string "Be warned. This will come\n"
+    .string "with unexpected side effects.$"
+
+ViridianCity_School_Text_NatureCompleted::
+    .string "The NATURE of your POKéMON has\n"
+    .string "been changed successfully!$"
 ViridianCity_School_Text_NotebookFirstPage::
     .string "Let's check out the notebook.\p"
     .string "First page…\p"
@@ -90,4 +99,3 @@ ViridianCity_School_Text_ExplainParalysis::
     .string "prevent the POKéMON from moving.\p"
     .string "Paralysis remains after battles.\n"
     .string "Use PARLYZ HEAL for treatment.$"
-

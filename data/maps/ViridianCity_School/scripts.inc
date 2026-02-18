@@ -30,6 +30,165 @@ ViridianCity_School_EventScript_Lass::
 ViridianCity_School_EventScript_Woman::
 	lock
 	faceplayer
+	goto_if_unset FLAG_SYS_POKEDEX_GET, ViridianCity_School_EventScript_WomanNoPokedex
+	msgbox ViridianCity_School_Text_NatureChange, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_WomanNoPokedex
+	releaseall
+	multichoicegrid 0, 1, MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE, 5, TRUE
+	switch VAR_RESULT
+	case 0, ViridianCity_School_Hardy
+	case 1, ViridianCity_School_Lonely
+	case 2, ViridianCity_School_Brave
+	case 3, ViridianCity_School_Adamant
+	case 4, ViridianCity_School_Naughty
+	case 5, ViridianCity_School_Bold
+	case 6, ViridianCity_School_Docile
+	case 7, ViridianCity_School_Relaxed
+	case 8, ViridianCity_School_Impish
+	case 9, ViridianCity_School_Lax
+	case 10, ViridianCity_School_Timid
+	case 11, ViridianCity_School_Hasty
+	case 12, ViridianCity_School_Serious
+	case 13, ViridianCity_School_Jolly
+	case 14, ViridianCity_School_Naive
+	case 15, ViridianCity_School_Modest
+	case 16, ViridianCity_School_Mild
+	case 17, ViridianCity_School_Quiet
+	case 18, ViridianCity_School_Bashful
+	case 19, ViridianCity_School_Rash
+	case 20, ViridianCity_School_Calm
+	case 21, ViridianCity_School_Gentle
+	case 22, ViridianCity_School_Sassy
+	case 23, ViridianCity_School_Careful
+	case 24, ViridianCity_School_Quirky
+	end
+
+ViridianCity_School_Hardy::
+	setvar VAR_0x8014, 0
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Lonely::
+	setvar VAR_0x8014, 1
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Brave::
+	setvar VAR_0x8014, 2
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Adamant::
+	setvar VAR_0x8014, 3
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Naughty::
+	setvar VAR_0x8014, 4
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Bold::
+	setvar VAR_0x8014, 5
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Docile::
+	setvar VAR_0x8014, 6
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Relaxed::
+	setvar VAR_0x8014, 7
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Impish::
+	setvar VAR_0x8014, 8
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Lax::
+	setvar VAR_0x8014, 9
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Timid::
+	setvar VAR_0x8014, 10
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Hasty::
+	setvar VAR_0x8014, 11
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Serious::
+	setvar VAR_0x8014, 12
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Jolly::
+	setvar VAR_0x8014, 13
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Naive::
+	setvar VAR_0x8014, 14
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Modest::
+	setvar VAR_0x8014, 15
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Mild::
+	setvar VAR_0x8014, 16
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Quiet::
+	setvar VAR_0x8014, 17
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Bashful::
+	setvar VAR_0x8014, 18
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Rash::
+	setvar VAR_0x8014, 19
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Calm::
+	setvar VAR_0x8014, 20
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Gentle::
+	setvar VAR_0x8014, 21
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Sassy::
+	setvar VAR_0x8014, 22
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Careful::
+	setvar VAR_0x8014, 23
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_Quirky::
+	setvar VAR_0x8014, 24
+	special ChangePokemonPersonality
+	end
+
+ViridianCity_School_EventScript_WomanNoPokedex::
 	msgbox ViridianCity_School_Text_ReadBlackboardCarefully
 	closemessage
 	applymovement LOCALID_WOMAN, Common_Movement_FaceOriginalDirection

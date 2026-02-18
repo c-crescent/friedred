@@ -1762,6 +1762,18 @@ void ChangeBoxPokemonNickname(void)
     DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, species, gender, personality, ChangeBoxPokemonNickname_CB);
 }
 
+void ChangePokemonPersonality(void)
+{
+    struct Pokemon * pokemon = &gPlayerParty[0];
+    u16 species;
+    u8 level;
+    u8 nature = gSpecialVar_0x8014;
+
+    species = GetMonData(pokemon, MON_DATA_SPECIES, NULL);
+    level = GetMonData(pokemon, MON_DATA_LEVEL, NULL);
+    CreateMonWithNature(&gPlayerParty[0], species, level, 31, nature);
+}
+
 static void ChangeBoxPokemonNickname_CB(void)
 {
     SetBoxMonNickAt(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos, gStringVar2);

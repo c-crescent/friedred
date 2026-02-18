@@ -79,6 +79,34 @@ static const struct MenuAction sMultichoiceList_AllStones[] = {
     { gText_NoPlace }
 };
 
+static const struct MenuAction sMultichoiceList_TrainerSchoolNatureChange[] = {
+    { gText_Hardy },
+    { gText_Lonely },    
+    { gText_Brave },
+    { gText_Adamant },
+    { gText_Naughty },    
+    { gText_Bold },
+    { gText_Docile },    
+    { gText_Relaxed },
+    { gText_Impish },
+    { gText_Lax },    
+    { gText_Timid },
+    { gText_Hasty },
+    { gText_Serious },    
+    { gText_Jolly },
+    { gText_Naive },
+    { gText_Modest },
+    { gText_Mild },    
+    { gText_Quiet },
+    { gText_Bashful },
+    { gText_Rash },
+    { gText_Calm },
+    { gText_Gentle },
+    { gText_Sassy },
+    { gText_Careful },
+    { gText_Quirky },   
+};
+
 static const struct MenuAction sMultichoiceList_NoStones[] = {
     { gText_NoPlace }
 };
@@ -757,6 +785,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
 	[MULTICHOICE_SAPPHIREEMERALD]                                       = MULTICHOICE(sMultichoiceList_SapphireEmerald),
     [MULTICHOICE_EMERALD]                                       = MULTICHOICE(sMultichoiceList_Emerald),
     [MULTICHOICE_ALLSTONES]                                       = MULTICHOICE(sMultichoiceList_AllStones),
+    [MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE]                = MULTICHOICE(sMultichoiceList_TrainerSchoolNatureChange),
 };
 
 // From Cool to Berries goes unused

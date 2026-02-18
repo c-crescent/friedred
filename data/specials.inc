@@ -412,6 +412,7 @@ gSpecials::
 	def_special IsPokemonJumpSpeciesInParty
 	def_special IsNationalPokedexEnabled
 	def_special CallTrainerTowerFunc
+	def_special ChangePokemonPersonality
 	def_special ShowPokemonJumpRecords
 	def_special BufferTMHMMoveName
 	def_special DaisyMassageServices

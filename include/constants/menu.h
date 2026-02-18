@@ -96,6 +96,7 @@
 #define MULTICHOICE_EMERALD                                    89
 #define MULTICHOICE_ALLSTONES                                  90
 #define MULTICHOICE_SAPPHIREEMERALD                            91
+#define MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE               92    
 
 
 #define MULTICHOICE_NONE                                      255

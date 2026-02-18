@@ -23,6 +23,7 @@ extern u16 gSpecialVar_MonBoxId;
 extern u16 gSpecialVar_MonBoxPos;
 extern u16 gSpecialVar_TextColor;
 extern u16 gSpecialVar_PrevTextColor;
+extern u16 gSpecialVar_0x8014;
 
 extern const u16 levelCapFlags[NUM_HARD_CAPS];
 extern const u16 levelCaps[NUM_HARD_CAPS];
