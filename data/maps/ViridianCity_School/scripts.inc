@@ -32,8 +32,7 @@ ViridianCity_School_EventScript_Woman::
 	faceplayer
 	goto_if_unset FLAG_SYS_POKEDEX_GET, ViridianCity_School_EventScript_WomanNoPokedex
 	msgbox ViridianCity_School_Text_NatureChange, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_WomanNoPokedex
-	releaseall
+	goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_WomanNoPokedex	
 	multichoicegrid 0, 1, MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE, 5, TRUE
 	switch VAR_RESULT
 	case 0, ViridianCity_School_Hardy
@@ -62,130 +61,179 @@ ViridianCity_School_EventScript_Woman::
 	case 23, ViridianCity_School_Careful
 	case 24, ViridianCity_School_Quirky
 	end
-
 ViridianCity_School_Hardy::
 	setvar VAR_0x8014, 0
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Lonely::
 	setvar VAR_0x8014, 1
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Brave::
 	setvar VAR_0x8014, 2
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Adamant::
 	setvar VAR_0x8014, 3
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Naughty::
 	setvar VAR_0x8014, 4
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Bold::
 	setvar VAR_0x8014, 5
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Docile::
 	setvar VAR_0x8014, 6
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Relaxed::
 	setvar VAR_0x8014, 7
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Impish::
 	setvar VAR_0x8014, 8
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Lax::
 	setvar VAR_0x8014, 9
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Timid::
 	setvar VAR_0x8014, 10
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Hasty::
 	setvar VAR_0x8014, 11
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Serious::
 	setvar VAR_0x8014, 12
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Jolly::
 	setvar VAR_0x8014, 13
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Naive::
 	setvar VAR_0x8014, 14
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Modest::
 	setvar VAR_0x8014, 15
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Mild::
 	setvar VAR_0x8014, 16
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Quiet::
 	setvar VAR_0x8014, 17
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Bashful::
 	setvar VAR_0x8014, 18
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Rash::
 	setvar VAR_0x8014, 19
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Calm::
 	setvar VAR_0x8014, 20
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Gentle::
 	setvar VAR_0x8014, 21
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Sassy::
 	setvar VAR_0x8014, 22
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Careful::
 	setvar VAR_0x8014, 23
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_Quirky::
 	setvar VAR_0x8014, 24
 	special ChangePokemonPersonality
+	msgbox ViridianCity_School_Text_NatureCompleted
+	closemessage
 	end
 
 ViridianCity_School_EventScript_WomanNoPokedex::
