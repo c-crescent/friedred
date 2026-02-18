@@ -368,6 +368,7 @@ gBattleAnims_Moves::
 	.4byte Move_MAGICAL_LEAF
 	.4byte Move_WATER_SPORT
 	.4byte Move_CALM_MIND
+	.4byte Move_QUIVER_DANCE
 	.4byte Move_LEAF_BLADE
 	.4byte Move_DRAGON_DANCE
 	.4byte Move_ROCK_BLAST
@@ -2763,6 +2764,7 @@ Move_MEDITATE:
 	call UnsetPsychicBackground
 	end
 
+Move_QUIVER_DANCE:
 Move_AGILITY:
 	monbg ANIM_ATK_PARTNER
 	setalpha 12, 8

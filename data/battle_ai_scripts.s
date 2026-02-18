@@ -596,6 +596,11 @@ AI_CBM_CalmMind::
 	if_stat_level_equal AI_USER, STAT_SPDEF, 12, Score_Minus8
 	end
 
+AI_CBM_QuiverDance::
+	if_stat_level_equal AI_USER, STAT_SPDEF, 12, Score_Minus8
+	if_stat_level_equal AI_USER, STAT_SPATK, 12, Score_Minus8
+	if_stat_level_equal AI_USER, STAT_SPEED, 12, Score_Minus8
+	end
 AI_CBM_DragonDance::
 	if_stat_level_equal AI_USER, STAT_ATK, 12, Score_Minus10
 	if_stat_level_equal AI_USER, STAT_SPEED, 12, Score_Minus8
@@ -2904,6 +2909,7 @@ AI_PreferBatonPass_GoForBatonPass::
 	if_move MOVE_SWORDS_DANCE, AI_PreferBatonPass2
 	if_move MOVE_DRAGON_DANCE, AI_PreferBatonPass2
 	if_move MOVE_CALM_MIND, AI_PreferBatonPass2
+	if_move MOVE_QUIVER_DANCE, AI_PreferBatonPass2
 	if_effect EFFECT_PROTECT, AI_PreferBatonPass3
 	if_move MOVE_BATON_PASS, AI_PreferBatonPass_EncourageIfHighStats
 	if_random_less_than 20, AI_Risky_End
