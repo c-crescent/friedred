@@ -10533,10 +10533,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP = 65,
         .baseAttack = 47,
-        .baseDefense = 55,
+        .baseDefense = 75,
         .baseSpeed = 85,
         .baseSpAttack = 73,
-        .baseSpDefense = 75,
+        .baseSpDefense = 95,
         .types = {TYPE_BUG, TYPE_BUG},
         .catchRate = 150,
         .expYield = 146,
