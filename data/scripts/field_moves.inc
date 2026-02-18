@@ -2,14 +2,10 @@ EventScript_CutTree::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CantCutTree
-	checkpartymove MOVE_CUT
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantCutTree
-	setfieldeffectargument 0, VAR_RESULT
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	buffermovename STR_VAR_2, MOVE_CUT
 	msgbox Text_CutTreeDown, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_DontCutTree
-	msgbox Text_MonUsedMove
+	compare VAR_RESULT, NO 
+	goto_if_eq EventScript_DontCutTree
+	msgbox Text_CutUsed
 	closemessage
 	dofieldeffect FLDEFF_USE_CUT_ON_TREE
 	waitstate
@@ -52,6 +48,12 @@ Text_CutTreeDown::
 Text_MonUsedMove::
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
+Text_RockSmashed::	
+	.string "The rock was smashed!$"
+
+Text_CutUsed::
+	.string"The tree was cut down!$"
+
 Text_TreeCanBeCutDown::
 	.string "This tree looks like it can be CUT\n"
 	.string "down!$"
@@ -59,14 +61,11 @@ Text_TreeCanBeCutDown::
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
-	checkpartymove MOVE_ROCK_SMASH
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
-	setfieldeffectargument 0, VAR_RESULT
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	buffermovename STR_VAR_2, MOVE_ROCK_SMASH
+	goto_if_unset FLAG_BADGE06_GET, EventScript_CantSmashRock
 	msgbox Text_UseRockSmash, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_DontSmashRock
-	msgbox Text_MonUsedMove
+	compare VAR_RESULT, NO 
+	goto_if_eq EventScript_DontSmashRock
+	msgbox Text_RockSmashed
 	closemessage
 	dofieldeffect FLDEFF_USE_ROCK_SMASH
 	waitstate
@@ -120,11 +119,9 @@ EventScript_StrengthBoulder::
 	lockall
 	goto_if_unset FLAG_BADGE04_GET, EventScript_CantMoveBoulder
 	goto_if_set FLAG_SYS_USE_STRENGTH, EventScript_AlreadyUsedStrength
-	checkpartymove MOVE_STRENGTH
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantMoveBoulder
-	setfieldeffectargument 0, VAR_RESULT
 	msgbox Text_UseStrength, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_DontUseStrength
+	compare VAR_RESULT, NO 
+	goto_if_eq EventScript_DontUseStrength
 	closemessage
 	dofieldeffect FLDEFF_USE_STRENGTH
 	waitstate
@@ -162,8 +159,7 @@ Text_UseStrength::
 	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "Your team's STRENGTH made it\n"
 	.string "possible to move boulders around!$"
 
 Text_MonMayPushBoulder::
@@ -177,12 +173,10 @@ Text_StrengthMadeMovingBouldersPossible::
 EventScript_Waterfall::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
-	checkpartymove MOVE_WATERFALL
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_WaterCrashingDown
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	setfieldeffectargument 0, VAR_RESULT
+	goto_if_unset FLAG_BADGE08_GET, EventScript_WaterCrashingDown
 	msgbox Text_UseWaterfall, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_EndWaterfall
+	compare VAR_RESULT, NO 
+	goto_if_eq EventScript_EndWaterfall
 	msgbox Text_MonUsedWaterfall
 	dofieldeffect FLDEFF_USE_WATERFALL
 	goto EventScript_EndWaterfall
@@ -204,17 +198,14 @@ Text_UseWaterfall::
 	.string "Would you like to use WATERFALL?$"
 
 Text_MonUsedWaterfall::
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "Your team used WATERFALL!$"
 
 EventScript_DeepWater::
 	lockall
-	checkpartymove MOVE_DIVE
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_MayGoUnderwater
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	setfieldeffectargument 0, VAR_RESULT
-	setfieldeffectargument 1, 1
+	goto_if_unset FLAG_BADGE06_GET, EventScript_MayGoUnderwater
 	msgbox Text_SeaIsDeepUseDive, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_EndDive
+	compare VAR_RESULT, NO
+	goto_if_eq EventScript_EndDive
 	msgbox Text_MonUsedDive
 	dofieldeffect FLDEFF_USE_DIVE
 	goto EventScript_EndDive
@@ -230,13 +221,9 @@ EventScript_EndDive:
 
 EventScript_TrySurface::
 	lockall
-	checkpartymove MOVE_DIVE
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSurface
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	setfieldeffectargument 0, VAR_RESULT
-	setfieldeffectargument 1, 1
 	msgbox Text_LightFilteringUseDive, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_EndSurface
+	compare VAR_RESULT, NO
+	goto_if_eq EventScript_EndSurface
 	msgbox Text_MonUsedDive
 	dofieldeffect FLDEFF_USE_DIVE
 	goto EventScript_EndSurface
@@ -264,7 +251,7 @@ Text_SeaIsDeepUseDive::
 	.string "Would you like to use DIVE?$"
 
 Text_MonUsedDive::
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "Your team used DIVE.$"
 
 Text_MonMaySurface::
 	.string "Light is filtering down from above.\n"
