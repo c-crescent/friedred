@@ -1762,6 +1762,19 @@ void ChangeBoxPokemonNickname(void)
     DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, species, gender, personality, ChangeBoxPokemonNickname_CB);
 }
 
+void ResetPokemonLeadPokemonEV(void)
+{
+    struct Pokemon * pokemon = &gPlayerParty[0];
+
+    SetMonData(pokemon, MON_DATA_HP_EV, 0);
+    SetMonData(pokemon, MON_DATA_ATK_EV, 0);
+    SetMonData(pokemon, MON_DATA_DEF_EV, 0);
+    SetMonData(pokemon, MON_DATA_SPEED_EV, 0);
+    SetMonData(pokemon, MON_DATA_SPATK_EV, 0);
+    SetMonData(pokemon, MON_DATA_SPDEF_EV, 0);
+}
+
+
 void ChangePokemonPersonality(void)
 {
     struct Pokemon * pokemon = &gPlayerParty[0];
