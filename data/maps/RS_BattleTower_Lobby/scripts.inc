@@ -1,39 +1,7 @@
 RS_BattleTower_Lobby_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, BattleTower_Lobby_MapScript1_160293
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleTower_Lobby_MapScript2_160302
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleTower_Lobby_MapScript2_1602EE
 	.byte 0
-
-BattleTower_Lobby_MapScript1_160293::
-	call BattleTower_Lobby_EventScript_16029C
-	end
-
-BattleTower_Lobby_EventScript_16029C::
-	setvar VAR_0x8004, 10
-	special SetBattleTowerProperty
-	goto_if_set FLAG_TEMP_1, BattleTower_Lobby_EventScript_160662
-	checkitem ITEM_EON_TICKET, 1
-	compare VAR_RESULT, TRUE
-	goto_if_eq BattleTower_Lobby_EventScript_HideScott
-	callnative GetBestBattleTowerStreakToVar0x8007
-	compare VAR_0x8007, 2
-	goto_if_lt BattleTower_Lobby_EventScript_HideScott
-	clearflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
-	callnative TryInitBattleTowerAwardManObjectEvent
-	return
-
-BattleTower_Lobby_EventScript_CheckShouldGiveEonTicket::
-	callnative GetBestBattleTowerStreakToVar0x8007
-	compare VAR_0x8007, 56
-	goto_if_lt BattleTower_Lobby_EventScript_HideScott
-	; clearflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
-	callnative TryInitBattleTowerAwardManObjectEvent
-	return
-
-BattleTower_Lobby_EventScript_HideScott::
-	setflag FLAG_HIDE_AWARD_SCOTT_BATTLE_TOWER
-	return
-
 BattleTower_Lobby_MapScript2_1602EE::
 	map_script_2 VAR_TEMP_1, 0, BattleTower_Lobby_EventScript_1602F8
 	.2byte 0
@@ -358,21 +326,4 @@ BattleTower_Lobby_EventScript_160727::
 	waitbuttonpress
 	callnative RemoveRecordsWindow
 	releaseall
-	end
-	
-BattleTower_Lobby_EventScript_Scott::
-	lock
-	faceplayer
-	checkitem ITEM_EON_TICKET, 1
-	compare VAR_RESULT, TRUE
-	goto_if_eq BattleTower_Lobby_EventScript_Scott_GaveEonTicket
-	msgbox BattleTower_Lobby_Text_Scott28Wins, MSGBOX_DEFAULT
-	giveitem ITEM_EON_TICKET, 1
-	msgbox BattleTower_Lobby_Text_ScottExplainEonTicket, MSGBOX_DEFAULT
-	release
-	end
-
-BattleTower_Lobby_EventScript_Scott_GaveEonTicket::
-	msgbox BattleTower_Lobby_Text_ScottGaveEonTicket, MSGBOX_DEFAULT
-	release
 	end
