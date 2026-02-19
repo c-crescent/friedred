@@ -236,6 +236,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectQuiverDance            @ EFFECT_QUIVER_DANCE
 	.4byte BattleScript_EffectDragonDance            @ EFFECT_DRAGON_DANCE
 	.4byte BattleScript_EffectCamouflage             @ EFFECT_CAMOUFLAGE
+	.4byte BattleScript_EffectFreezeHit              @ EFFECT_BLIZZARD
 	.4byte BattleScript_EffectCrushGrip
 	@ here goes crush grip as well
 
