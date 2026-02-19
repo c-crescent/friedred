@@ -5089,13 +5089,31 @@ static void Task_TryLearningNextMoveAfterText(u8 taskId)
         Task_TryLearningNextMove(taskId);
 }
 
+static u8 GetCurrentLevelCap(void)
+{
+    s32 i;
+    
+    extern const u16 levelCapFlags[NUM_HARD_CAPS];
+    extern const u16 levelCaps[NUM_HARD_CAPS];
+    
+    // Check badges from highest to lowest
+    for (i = NUM_HARD_CAPS - 1; i >= 0; i--) 
+    {
+        if (FlagGet(levelCapFlags[i]))
+            return levelCaps[i];
+    }
+    
+    // No badges = starting cap
+    return 14;
+}
+
 void ItemUseCB_RareCandy(u8 taskId, TaskFunc func)
 {
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     u16 item = gSpecialVar_ItemId;
     bool8 noEffect;
 
-    if (GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL)
+    if (GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL && GetMonData(mon, MON_DATA_LEVEL) < GetCurrentLevelCap())
         noEffect = PokemonItemUseNoEffect(mon, item, gPartyMenu.slotId, 0);
     else
         noEffect = TRUE;
