@@ -378,6 +378,7 @@ gBattleAnims_Moves::
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_CRUSH_GRIP
 	.4byte Move_BULLET_PUNCH
+	.4byte Move_ROCK_POLISH
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -2765,6 +2766,7 @@ Move_MEDITATE:
 	call UnsetPsychicBackground
 	end
 
+Move_ROCK_POLISH:
 Move_QUIVER_DANCE:
 Move_AGILITY:
 	monbg ANIM_ATK_PARTNER

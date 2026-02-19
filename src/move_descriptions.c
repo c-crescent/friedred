@@ -358,6 +358,7 @@ const u8 gMoveDescription_DoomDesire[] = _("A move that attacks\nthe foe with a\
 const u8 gMoveDescription_PsychoBoost[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
 const u8 gMoveDescription_CrushGrip[] = _("A crush attack that\nis more powerful\nthe more HP the\nfoe has left.");
 const u8 gMoveDescription_BulletPunch[] = _("The user strikes\nwith tough fists\nthat are as fast as\na bullet train.");
+const u8 gMoveDescription_RockPolish[] = _("The user polishes \nits body to reduce drag.\nThis sharply raises\nthe speed stat.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -717,4 +718,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_PSYCHO_BOOST  - 1] = gMoveDescription_PsychoBoost,
     [MOVE_CRUSH_GRIP    - 1] = gMoveDescription_CrushGrip,
     [MOVE_BULLET_PUNCH  - 1] = gMoveDescription_BulletPunch,
+    [MOVE_ROCK_POLISH   - 1] = gMoveDescription_RockPolish,
 };
