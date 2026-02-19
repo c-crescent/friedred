@@ -5811,9 +5811,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseHP = 60,
         .baseAttack = 60,
         .baseDefense = 60,
-        .baseSpeed = 85,
-        .baseSpAttack = 85,
-        .baseSpDefense = 85,
+        .baseSpeed = 105,
+        .baseSpAttack = 105,
+        .baseSpDefense = 105,
         .types = {TYPE_GHOST, TYPE_GHOST},
         .catchRate = 45,
         .expYield = 147,
@@ -5982,7 +5982,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_DUNSPARCE] =
     {
-        .baseHP = 100,
+        .baseHP = 200,
         .baseAttack = 70,
         .baseDefense = 70,
         .baseSpeed = 45,
@@ -6505,10 +6505,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_OCTILLERY] =
     {
         .baseHP = 75,
-        .baseAttack = 105,
+        .baseAttack = 115,
         .baseDefense = 75,
         .baseSpeed = 65,
-        .baseSpAttack = 105,
+        .baseSpAttack = 115,
         .baseSpDefense = 75,
         .types = {TYPE_WATER, TYPE_WATER},
         .catchRate = 75,
