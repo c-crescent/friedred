@@ -81,6 +81,7 @@ static const u8 sTechnicianDescription[] = _("Powers up the POKéMON's weaker mo
 static const u8 sNoGuardDescription[] = _("Prevents moves from missing.");
 static const u8 sSlushRushDescription[] = _("Raises SPEED in hail.");
 static const u8 sIceBodyDescription[] = _("Slight HP recovery in hail.");
+static const u8 sSnowCloakDescription[] = _("Ups evasion in hail.");
 
 const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
 {
@@ -166,7 +167,8 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_TECHNICIAN] = sTechnicianDescription,
     [ABILITY_NO_GUARD] = sNoGuardDescription,
     [ABILITY_SLUSH_RUSH] = sSlushRushDescription,
-    [ABILITY_ICE_BODY] = sIceBodyDescription
+    [ABILITY_ICE_BODY] = sIceBodyDescription,
+    [ABILITY_SNOW_CLOAK] = sSnowCloakDescription,
 };
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -253,5 +255,6 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_TECHNICIAN] = _("TECHNICIAN"),
     [ABILITY_NO_GUARD] = _("NO GUARD"),
     [ABILITY_SLUSH_RUSH] = _("SLUSH RUSH"),
-    [ABILITY_ICE_BODY] = _("ICE BODY")
+    [ABILITY_ICE_BODY] = _("ICE BODY"),
+    [ABILITY_SNOW_CLOAK] = _("SNOW CLOAK"),
 };
