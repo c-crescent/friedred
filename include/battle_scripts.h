@@ -237,6 +237,7 @@ extern const u8 BattleScript_BattleTowerTrainerBattleWon[];
 extern const u8 BattleScript_BattleTowerBrainBattleWon[];
 extern const u8 BattleScript_PickedUpItem[];
 extern const u8 BattleScript_PickedUpItemSolo[];
+extern const u8 BattleScript_SnowWarningActivates[];
 
 extern const u8 *const gBattleScriptsForMoveEffects[];
 extern const u8 *const gBattlescriptsForBallThrow[];

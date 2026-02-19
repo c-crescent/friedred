@@ -4026,6 +4026,14 @@ BattleScript_SandstreamActivates::
 	call BattleScript_WeatherFormChanges
 	end3
 
+BattleScript_SnowWarningActivates::
+	pause B_WAIT_TIME_SHORT
+	printstring STRINGID_PKMNSXSUMMONEDHAIL
+	waitstate
+	playanimation BS_BATTLER_0, B_ANIM_HAIL_CONTINUES
+	call BattleScript_WeatherFormChanges
+	end3
+
 BattleScript_ShedSkinActivates::
 	printstring STRINGID_PKMNSXCUREDYPROBLEM
 	waitmessage B_WAIT_TIME_LONG

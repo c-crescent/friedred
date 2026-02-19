@@ -82,6 +82,7 @@ static const u8 sNoGuardDescription[] = _("Prevents moves from missing.");
 static const u8 sSlushRushDescription[] = _("Raises SPEED in hail.");
 static const u8 sIceBodyDescription[] = _("Slight HP recovery in hail.");
 static const u8 sSnowCloakDescription[] = _("Ups evasion in hail.");
+static const u8 sSnowWarningDescription[] = _("Summons hail in battle.");
 
 const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
 {
@@ -169,6 +170,7 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_SLUSH_RUSH] = sSlushRushDescription,
     [ABILITY_ICE_BODY] = sIceBodyDescription,
     [ABILITY_SNOW_CLOAK] = sSnowCloakDescription,
+    [ABILITY_SNOW_WARNING] = sSnowWarningDescription,
 };
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -257,4 +259,5 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SLUSH_RUSH] = _("SLUSH RUSH"),
     [ABILITY_ICE_BODY] = _("ICE BODY"),
     [ABILITY_SNOW_CLOAK] = _("SNOW CLOAK"),
+    [ABILITY_SNOW_WARNING] = _("SNOW WARNING"),
 };
