@@ -377,6 +377,7 @@ gBattleAnims_Moves::
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_CRUSH_GRIP
+	.4byte Move_BULLET_PUNCH
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -3188,6 +3189,7 @@ Move_SPITE:
 	clearmonbg ANIM_TARGET
 	end
 
+Move_BULLET_PUNCH:
 Move_MACH_PUNCH:
 	loadspritegfx ANIM_TAG_IMPACT
 	loadspritegfx ANIM_TAG_HANDS_AND_FEET

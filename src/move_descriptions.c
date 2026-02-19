@@ -357,6 +357,7 @@ const u8 gMoveDescription_WaterPulse[] = _("An attack with a\npulsing blast of\n
 const u8 gMoveDescription_DoomDesire[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
 const u8 gMoveDescription_PsychoBoost[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
 const u8 gMoveDescription_CrushGrip[] = _("A crush attack that\nis more powerful\nthe more HP the\nfoe has left.");
+const u8 gMoveDescription_BulletPunch[] = _("The user strikes\nwith tough fists\nthat are as fast as\na bullet train.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -715,4 +716,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_DOOM_DESIRE   - 1] = gMoveDescription_DoomDesire,
     [MOVE_PSYCHO_BOOST  - 1] = gMoveDescription_PsychoBoost,
     [MOVE_CRUSH_GRIP    - 1] = gMoveDescription_CrushGrip,
+    [MOVE_BULLET_PUNCH  - 1] = gMoveDescription_BulletPunch,
 };

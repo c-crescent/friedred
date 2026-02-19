@@ -4640,4 +4640,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
     },
+
+    [MOVE_BULLET_PUNCH] = 
+    {
+        .effect = EFFECT_HIT,
+        .power = 40,
+        .type = TYPE_STEEL,
+        .accuracy = 100,
+        .pp = 5,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_MAKES_CONTACT,
+    },
 };
