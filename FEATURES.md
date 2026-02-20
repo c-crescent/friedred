@@ -29,3 +29,30 @@
 *	Dark is now Physical; Ghost is now Special; 
 *	Regional Forms. 
 *	Many unique visual flourishes, including sideways stairs. 
+
+**Features added for Fried Red:**
+*   Added various moves and abilities from later generations.
+*   Blizzard now ignores accuracy check in hail.
+*   Various buffs to Pokemons, learnsets, and their abilities, some very significant.
+*   Buffs and rebalancing of weaker moves. Most moves are now 100% accurate except for sleep moves and special cases.
+*   Some moves like Egg Bomb & Spike Cannon have had their types changed.
+*   Smoothed out learnset levels for all pokemons.
+*   Increased shiny odds to 4x.
+*   The game now enforces hard level caps.
+*   Cheap Rare Candies and Master Balls are now available for purchase at the Viridian Mart.
+*   Significantly lowered tutor reteach costs. Move relearner service is now free.
+*   Removed friendship evolution. Most evolution lines now have a level up option as alternative / replacement.
+*   Added all relevant permanent held items in Celadon Mart to replace X_Items.
+*   Type-based damage boosting held items now gives 20% instead of 10% extra damage.
+*   Battle items are no longer useable. Enemy trainers now also do not have battle items.
+*   All original starters (including Eevee) now have a 50% gender.
+*   Vitamins no longer have a 100 EV limit.
+*   Added a Pokemon Nature select NPC (which also randomises the personality of the pokemon) to Viridian City.
+*   Reina now helps reset a Pokemon's EVs.
+*   HMs now only check for Pokemon in your party that can learn the move, not necessarily have it.
+*   Significantly increased the distribution of all non-legendary Pokemon before the E4.
+*   It is now much easier to get the Aurora Ticket from Scott.
+*   Daisy now gives you the Eon Ticket post-game, no Battle Tower record required.
+*   Roaming routes are now significantly fewer.
+*   Significantly altered the globa encounter rates. Minimum encounter rate is now 5%.
+*   The Battle Tower no longer has a ban list.
