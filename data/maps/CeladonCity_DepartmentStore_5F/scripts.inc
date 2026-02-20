@@ -27,6 +27,8 @@ CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems::
 	.align 2
 CeladonCity_DepartmentStore_5F_XItems::
 	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_CHOICE_SPECS
 	.2byte ITEM_BLACK_BELT
 	.2byte ITEM_BLACK_GLASSES
 	.2byte ITEM_CHARCOAL

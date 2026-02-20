@@ -207,6 +207,7 @@ static const u16 sBattleTowerHeldItems[] = {
     ITEM_STARF_BERRY,
     ITEM_LIECHI_BERRY,
     ITEM_STICK,
+    ITEM_CHOICE_SPECS,
     ITEM_LAX_INCENSE,
     ITEM_AGUAV_BERRY,
     ITEM_FIGY_BERRY,
@@ -242,16 +243,6 @@ static const u8 sFemaleTrainerGfx[] =
 };
 
 const u16 gBattleTowerBannedSpecies[] = {
-    SPECIES_MEW,
-    SPECIES_MEWTWO,
-    SPECIES_HO_OH,
-    SPECIES_LUGIA,
-    SPECIES_CELEBI,
-    SPECIES_KYOGRE,
-    SPECIES_GROUDON,
-    SPECIES_RAYQUAZA,
-    SPECIES_JIRACHI,
-    SPECIES_DEOXYS,
     0xFFFF
 };
 
@@ -273,7 +264,8 @@ static const u16 sLongStreakPrizes[] = {
     ITEM_KINGS_ROCK,
     ITEM_FOCUS_BAND,
     ITEM_SCOPE_LENS,
-    ITEM_CHOICE_BAND
+    ITEM_CHOICE_BAND,
+    ITEM_CHOICE_SPECS
 };
 
 void BattleTowerMapScript2(void)
