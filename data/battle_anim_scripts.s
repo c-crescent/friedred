@@ -379,7 +379,7 @@ gBattleAnims_Moves::
 	.4byte Move_CRUSH_GRIP
 	.4byte Move_BULLET_PUNCH
 	.4byte Move_X_SCISSOR
-	.4byte 
+	.4byte Move_DRACO_METEOR
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -3878,6 +3878,7 @@ Move_ENDEAVOR:
 	playsewithpan SE_M_COMET_PUNCH, SOUND_PAN_TARGET
 	end
 
+Move_DRACO_METEOR:
 Move_ERUPTION:
 	loadspritegfx ANIM_TAG_WARM_ROCK
 	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, F_PAL_BG | F_PAL_BATTLERS, 2, 0, 4, RGB_RED

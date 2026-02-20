@@ -30,9 +30,9 @@
 
 - [ ] Drain Punch
 - [ ] Aqua Jet
-- [ ] X-Scissor
+- [x] X-Scissor
 - [ ] Flash Cannon
-- [ ] Draco Meteor
+- [x] Draco Meteor
 - [ ] Grass Knot
 - [ ] Head Smash
 - [ ] Ice Shard

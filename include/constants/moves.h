@@ -361,8 +361,9 @@
 #define MOVE_BULLET_PUNCH 357
 #define MOVE_ROCK_POLISH 358
 #define MOVE_X_SCISSOR 359
+#define MOVE_DRACO_METEOR 360
 
-#define MOVES_COUNT 360
+#define MOVES_COUNT 361
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

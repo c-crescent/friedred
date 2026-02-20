@@ -360,6 +360,7 @@ const u8 gMoveDescription_CrushGrip[] = _("A crush attack that\nis more powerful
 const u8 gMoveDescription_BulletPunch[] = _("The user strikes\nwith tough fists\nthat are as fast as\na bullet train.");
 const u8 gMoveDescription_RockPolish[] = _("The user polishes\nits body to reduce drag.\nThis sharply raises\nthe speed stat.");
 const u8 gMoveDescription_XScissor[] = _("The user slashes at\nthe foe with claws.");
+const u8 gMoveDescription_DracoMeteor[] = _("Comets are summoned down\nfrom the sky.\nAlso sharply reduces\nthe user's spATK stat.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -721,4 +722,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_BULLET_PUNCH  - 1] = gMoveDescription_BulletPunch,
     [MOVE_ROCK_POLISH   - 1] = gMoveDescription_RockPolish,
     [MOVE_X_SCISSOR     - 1] = gMoveDescription_XScissor,
+    [MOVE_DRACO_METEOR  - 1] = gMoveDescription_DracoMeteor,
 };
