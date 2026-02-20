@@ -56,8 +56,10 @@ IndigoPlateau_PokemonCenter_1F_Items::
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_MAX_POTION
 	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_REVIVE	
 	.2byte ITEM_ETHER
-	.2byte ITEM_MOOMOO_MILK
+	.2byte ITEM_MAX_ELIXIR
+	.2byte ITEM_PP_MAX
 	.2byte ITEM_NONE
 	release
 	end
