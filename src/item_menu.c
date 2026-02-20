@@ -1448,6 +1448,7 @@ static bool8 IsUnregisterableKeyItem(u16 item)
         case ITEM_SOOT_SACK:
         case ITEM_ACRO_BIKE:
         case ITEM_POKEBLOCK_CASE:
+        case ITEM_POCKET_PC:
         case ITEM_POKE_FLUTE:
         case ITEM_BICYCLE ... ITEM_TEACHY_TV:
         case ITEM_POWDER_JAR:

@@ -8,6 +8,7 @@ void ItemUse_SetQuestLogEvent(u8, struct Pokemon *, u16, u16);
 
 void FieldUseFunc_Mail(u8 taskId);
 void FieldUseFunc_Bike(u8 taskId);
+void FieldUseFunc_PC(u8 taskId);
 void FieldUseFunc_Rod(u8 taskId);
 void FieldUseFunc_CoinCase(u8 taskId);
 void FieldUseFunc_PowderJar(u8 taskId);

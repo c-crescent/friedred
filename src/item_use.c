@@ -26,6 +26,8 @@
 #include "quest_log.h"
 #include "region_map.h"
 #include "script.h"
+#include "event_scripts.h"
+#include "bag.h"
 #include "strings.h"
 #include "task.h"
 #include "teachy_tv.h"
@@ -248,6 +250,13 @@ static void CB2_CheckMail(void)
 
     mail.itemId = gSpecialVar_ItemId;
     ReadMail(&mail, CB2_BagMenuFromStartMenu, FALSE);
+}
+
+void FieldUseFunc_PC(u8 taskId) {
+    // HideBagWindow(2);
+    CloseBagWindow(5);
+    CloseBagWindow(10);
+    ScriptContext_SetupScript(EventScript_PC);
 }
 
 void FieldUseFunc_Bike(u8 taskId)

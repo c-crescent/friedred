@@ -242,11 +242,9 @@ static const u32 *const sItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_LUCKY_PUNCH]    = {gItemIcon_LuckyPunch, gItemIconPalette_LuckyPunch},
     [ITEM_METAL_POWDER]   = {gItemIcon_MetalPowder, gItemIconPalette_MetalPowder},
     [ITEM_THICK_CLUB]     = {gItemIcon_ThickClub, gItemIconPalette_ThickClub},
-    [ITEM_STICK]          = {gItemIcon_Stick, gItemIconPalette_Stick},
-    
-    [ITEM_CHOICE_SPECS]            = {gItemIcon_BlackGlasses, gItemIconPalette_BlackTypeEnhancingItem},
+    [ITEM_STICK]          = {gItemIcon_Stick, gItemIconPalette_Stick},    
     // ????????
-    [ITEM_0E3]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    
     [ITEM_0E4]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_0E5]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_0E6]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
@@ -400,7 +398,10 @@ static const u32 *const sItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_RUBY]           = {gItemIcon_Gem, gItemIconPalette_Ruby},
     [ITEM_SAPPHIRE]       = {gItemIcon_Gem, gItemIconPalette_Sapphire},
     [ITEM_EMERALD]        = {gItemIcon_Emerald, gItemIconPalette_Emerald},
-    [ITEM_OLD_SEA_MAP]    = {gItemIcon_OldSeaMap, gItemIconPalette_OldSeaMap},
+    [ITEM_OLD_SEA_MAP]    = {gItemIcon_OldSeaMap, gItemIconPalette_OldSeaMap},    
+    [ITEM_CHOICE_SPECS]   = {gItemIcon_BlackGlasses, gItemIconPalette_BlackTypeEnhancingItem},
+    [ITEM_POCKET_PC]      = {gItemIcon_FameChecker, gItemIconPalette_FameChecker},
     // Return to field arrow
     [ITEMS_COUNT]         = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
+    
 };

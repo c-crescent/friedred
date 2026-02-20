@@ -1753,6 +1753,7 @@ void CB2_NewGame(void)
     NewGameInitData();
     AddBagItem(ITEM_BERRY_POUCH, 1);
     AddBagItem(ITEM_TM_CASE, 1);
+    AddBagItem(ITEM_POCKET_PC, 1);
     ResetInitialPlayerAvatarState();
     PlayTimeCounter_Start();
     ScriptContext_Init();

@@ -155,14 +155,14 @@ gControlsGuide_Text_LRButtons::
     .string "press the L Button.$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "Now tell me. Are you a boy?\n"
-    .string "Or are you a girl?$"
+    .string "Now tell me. Are you a girl?\n"
+    .string "Or are you a boy?$"
 
 gPikachuIntro_Text_Page1::
-    .string "Welcome to Pokémon Rekindled Red,\n"
-    .string "an update of Drayano's FireRed Omega.\n"
-	.string "This game allows you to catch every\n"
-    .string "Pokémon seen in the National Pokédex.\n"
+    .string "Welcome to Pokémon Fried Red,\n"
+    .string "an update of Deokishisu's\n"
+	.string "Rekindled Red, in turn an update of\n"
+    .string "Drayano's Fire Red Omega.\n"
 	.string "\n"
     .string "Harder trainer battles, new areas and\n"
     .string "a slew of original events and features\n"
@@ -190,11 +190,8 @@ gPikachuIntro_Text_Page3::
 
 gOakSpeech_Text_WelcomeToTheWorld::
     .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
     .string "Welcome to the world of POKéMON!\p"
     .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
@@ -204,14 +201,10 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "creatures called POKéMON.\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
     .string "I study POKéMON as a profession.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .string "But first, tell me a little about\n"
-    .string "yourself.\p$"
+    .string "But first, tell me about yourself.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
     .string "Let's begin with your name.\n"
@@ -223,8 +216,6 @@ gOakSpeech_Text_SoYourNameIsPlayer::
 
 gOakSpeech_Text_WhatWasHisName::
     .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
     .string "…Erm, what was his name now?$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
@@ -239,7 +230,5 @@ gOakSpeech_Text_RememberRivalsName::
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
     .string "A world of dreams and adventures\n"
     .string "with POKéMON awaits! Let's go!$"
