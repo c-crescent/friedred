@@ -358,4 +358,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_CRUSH_GRIP]    = _("CRUSH GRIP"),
     [MOVE_BULLET_PUNCH]  = _("BULLET PUNCH"),
     [MOVE_ROCK_POLISH ]  = _("ROCK POLISH"),
+    [MOVE_X_SCISSOR ]    = _("X-SCISSOR"),
 };

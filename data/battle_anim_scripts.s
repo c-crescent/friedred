@@ -378,7 +378,8 @@ gBattleAnims_Moves::
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_CRUSH_GRIP
 	.4byte Move_BULLET_PUNCH
-	.4byte Move_ROCK_POLISH
+	.4byte Move_X_SCISSOR
+	.4byte 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -3099,6 +3100,7 @@ Move_SUPER_FANG:
 	blendoff
 	end
 
+Move_X_SCISSOR:
 Move_SLASH:
 	loadspritegfx ANIM_TAG_SLASH
 	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0

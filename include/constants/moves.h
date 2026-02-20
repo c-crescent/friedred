@@ -360,8 +360,9 @@
 #define MOVE_CRUSH_GRIP 356
 #define MOVE_BULLET_PUNCH 357
 #define MOVE_ROCK_POLISH 358
+#define MOVE_X_SCISSOR 359
 
-#define MOVES_COUNT 359
+#define MOVES_COUNT 360
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
