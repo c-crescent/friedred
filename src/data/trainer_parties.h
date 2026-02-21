@@ -7554,28 +7554,28 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
         .lvl = 10,
         .species = SPECIES_GEODUDE,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_TOMB, MOVE_MUD_SPORT},
+        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_MUD_SPORT},
     },
     {
         .iv = 250,
         .lvl = 12,
         .species = SPECIES_OMANYTE,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_WATER_GUN, MOVE_MUD_SLAP, MOVE_ROCK_TOMB, MOVE_PROTECT},
+        .moves = {MOVE_WATER_GUN, MOVE_CONSTRICT, MOVE_WITHDRAW, MOVE_BITE},
     },
     {
         .iv = 250,
         .lvl = 12,
         .species = SPECIES_KABUTO,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_ABSORB, MOVE_ROCK_TOMB, MOVE_WATER_GUN, MOVE_MUD_SHOT},
+        .moves = {MOVE_ABSORB, MOVE_SCRATCH, MOVE_WATER_GUN, MOVE_HARDEN},
     },
     {
         .iv = 250,
         .lvl = 12,
-        .species = SPECIES_VULPIX,
+        .species = SPECIES_NOSEPASS,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_CONFUSE_RAY, MOVE_HYPNOSIS, MOVE_EMBER, MOVE_SUBSTITUTE},
+        .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_HARDEN, MOVE_SUBSTITUTE},
     },
     {
         .iv = 250,
@@ -7589,7 +7589,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
         .lvl = 14,
         .species = SPECIES_ONIX,
 		.heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_ROCK_TOMB, MOVE_DIG, MOVE_DRAGON_BREATH, MOVE_SWAGGER},
+        .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_THROW, MOVE_SWAGGER},
     },
 };
 
