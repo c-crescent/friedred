@@ -56,3 +56,4 @@
 *   Roaming routes are now significantly fewer.
 *   Significantly altered the globa encounter rates. Minimum encounter rate is now 5%.
 *   The Battle Tower no longer has a ban list.
+*   Fishing Rods can no longer fail.
