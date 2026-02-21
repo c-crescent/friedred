@@ -155,46 +155,29 @@ gControlsGuide_Text_LRButtons::
     .string "press the L Button.$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "Now tell me. Are you a boy?\n"
-    .string "Or are you a girl?$"
+    .string "Now tell me. Are you a girl?\n"
+    .string "Or are you a boy?$"
 
 gPikachuIntro_Text_Page1::
-    .string "Welcome to Pokémon Rekindled Red,\n"
-    .string "an update of Drayano's FireRed Omega.\n"
-	.string "This game allows you to catch every\n"
-    .string "Pokémon seen in the National Pokédex.\n"
-	.string "\n"
-    .string "Harder trainer battles, new areas and\n"
-    .string "a slew of original events and features\n"
-	.string "are added in Pokémon Rekindled Red.$"
+    .string "Welcome to Pokémon Fried (Liver) Red,\n"
+    .string "an updated Deokishisu's Rekindled Red,\n"
+	.string "which in turn was also an update of\n"
+    .string "Drayano's FireRed Omega.$"
 
 gPikachuIntro_Text_Page2::
-    .string "Things like level-up moves and stats\n"
-    .string "have been edited as well, in the name\n"
-    .string "of making various Pokémon more viable\n"
-    .string "than before. Evolution methods were\n"
-    .string "added so that all Pokémon can evolve\n"
-    .string "without the need for trading. Last but\n"
-    .string "not least, this game introduces many\n"
-	.string "handy quality of life features.$"
+    .string "There are too many changes to list,\n"
+    .string "in terms of balancing, quality of life,\n"
+    .string "difficulty increase, and content from\n"
+    .string "new generations as well.$"
 
 gPikachuIntro_Text_Page3::
-    .string "I hope you enjoy the challenging\n"
-    .string "fights with old and new Trainers that\n"
-    .string "await you in this game. Credits go to\n"
-    .string "Drayano for the original concept\n"
-    .string "expressed in FireRed Omega, and to\n"
-    .string "Deokishisu for the enhancement hack\n"
-    .string "FRLG-Plus, which is used as a base\n"
-	.string "for this ultimate experience!$"
+    .string "Please refer to the documentations\n"
+    .string "if you're interested in seeing all the\n"
+    .string "new features.$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
     .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "My name is OAK.$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
@@ -204,9 +187,6 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "creatures called POKéMON.\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
     .string "I study POKéMON as a profession.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
@@ -223,8 +203,6 @@ gOakSpeech_Text_SoYourNameIsPlayer::
 
 gOakSpeech_Text_WhatWasHisName::
     .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
     .string "…Erm, what was his name now?$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
@@ -239,7 +217,5 @@ gOakSpeech_Text_RememberRivalsName::
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
     .string "A world of dreams and adventures\n"
     .string "with POKéMON awaits! Let's go!$"
