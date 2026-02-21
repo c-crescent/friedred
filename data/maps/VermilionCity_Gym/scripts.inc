@@ -13,6 +13,7 @@ VermilionCity_Gym_MapScripts::
 	.byte 0
 
 VermilionCity_Gym_OnLoad::
+	setflag FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES
 	call_if_set FOUND_FIRST_SWITCH, VermilionCity_Gym_EventScript_SetOneBeamOff
 	call_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_SetBeamsOff
 	end

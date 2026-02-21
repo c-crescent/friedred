@@ -49,9 +49,8 @@ VermilionCity_Gym_Text_TuckerDefeat::
     .string "You're very good!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-    .string "It's not easy opening that door.\p"
-    .string "LT. SURGE was always famous for\n"
-    .string "his cautious nature in the Army.$"
+    .string "That door didn't use to be open"
+    .string "all the time.$"
 
 VermilionCity_Gym_Text_BailyIntro::
     .string "I'm a lightweight, but I'm good\n"
@@ -62,9 +61,7 @@ VermilionCity_Gym_Text_BailyDefeat::
     .string "Fried!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-    .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door\n"
-    .string "switches inside something.$"
+    .string "Okay, I'll concede!$"
 
 VermilionCity_Gym_Text_DwayneIntro::
     .string "This is no place for kids!\n"
@@ -75,12 +72,8 @@ VermilionCity_Gym_Text_DwayneDefeat::
     .string "Surprised me!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "LT. SURGE installed the traps in\n"
-    .string "the GYM himself.\p"
-    .string "He set up double locks everywhere.\n"
-    .string "Let me give you a hint.\p"
-    .string "When you open the first lock, the\n"
-    .string "second lock is right next to it.$"
+    .string "LT. SURGE used to have traps\n"
+    .string "in the GYM himself.$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
