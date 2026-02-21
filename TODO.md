@@ -36,7 +36,7 @@
 - [ ] Grass Knot
 - [ ] Head Smash
 - [ ] Ice Shard
-- [ ] Iron Head
+- [x] Iron Head
 - [ ] Leaf Storm
 - [ ] Ominous Wind
 - [ ] Shadow Sneak

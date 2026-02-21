@@ -380,6 +380,7 @@ gBattleAnims_Moves::
 	.4byte Move_BULLET_PUNCH
 	.4byte Move_X_SCISSOR
 	.4byte Move_DRACO_METEOR
+	.4byte Move_IRON_HEAD
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -2460,6 +2461,7 @@ Move_ROLLING_KICK:
 	blendoff
 	end
 
+Move_IRON_HEAD:
 Move_HEADBUTT:
 	loadspritegfx ANIM_TAG_IMPACT
 	createsprite gBowMonSpriteTemplate, ANIM_ATTACKER, 2, 0
