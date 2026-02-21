@@ -7554,7 +7554,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
         .lvl = 10,
         .species = SPECIES_GEODUDE,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_MUD_SPORT},
+        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB},
     },
     {
         .iv = 250,
@@ -7568,14 +7568,14 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
         .lvl = 12,
         .species = SPECIES_KABUTO,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_ABSORB, MOVE_SCRATCH, MOVE_WATER_GUN, MOVE_HARDEN},
+        .moves = {MOVE_ABSORB, MOVE_SCRATCH, MOVE_WATER_GUN, MOVE_ROCK_TOMB},
     },
     {
         .iv = 250,
         .lvl = 12,
         .species = SPECIES_NOSEPASS,
 		.heldItem = ITEM_NONE,
-        .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_HARDEN, MOVE_SUBSTITUTE},
+        .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_HARDEN, MOVE_ROCK_TOMB},
     },
     {
         .iv = 250,
@@ -7589,7 +7589,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
         .lvl = 14,
         .species = SPECIES_ONIX,
 		.heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_THROW, MOVE_SWAGGER},
+        .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_THROW, MOVE_ROCK_TOMB},
     },
 };
 
