@@ -1,6 +1,8 @@
 EventScript_CutTree::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
+	checkitem ITEM_HM01, 1
+	vgoto_if_eq VAR_RESULT, FALSE, EventScript_CantCutTree
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CantCutTree
 	msgbox Text_CutTreeDown, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
@@ -117,6 +119,8 @@ Text_MonMaySmashRock::
 EventScript_StrengthBoulder::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
+	checkitem ITEM_HM04, 1
+	vgoto_if_eq VAR_RESULT, FALSE, EventScript_CantMoveBoulder
 	goto_if_unset FLAG_BADGE04_GET, EventScript_CantMoveBoulder
 	goto_if_set FLAG_SYS_USE_STRENGTH, EventScript_AlreadyUsedStrength
 	msgbox Text_UseStrength, MSGBOX_YESNO
@@ -173,6 +177,8 @@ Text_StrengthMadeMovingBouldersPossible::
 EventScript_Waterfall::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
+	checkitem ITEM_HM07, 1
+	vgoto_if_eq VAR_RESULT, FALSE, EventScript_WaterCrashingDown
 	goto_if_unset FLAG_BADGE08_GET, EventScript_WaterCrashingDown
 	msgbox Text_UseWaterfall, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
@@ -202,6 +208,8 @@ Text_MonUsedWaterfall::
 
 EventScript_DeepWater::
 	lockall
+	checkitem ITEM_HM08, 1
+	vgoto_if_eq VAR_RESULT, FALSE, EventScript_MayGoUnderwater
 	goto_if_unset FLAG_BADGE06_GET, EventScript_MayGoUnderwater
 	msgbox Text_SeaIsDeepUseDive, MSGBOX_YESNO
 	compare VAR_RESULT, NO
