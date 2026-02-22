@@ -3156,7 +3156,7 @@ const u16 levelCapFlags[NUM_HARD_CAPS] = {
 const u16 levelCaps[NUM_HARD_CAPS] = {
     23, 27, 35,
     50, 53, 58, 
-    61, 69, 100
+    63, 69, 100
 };
 
 static u8 GetCurrentLevelCap(void)

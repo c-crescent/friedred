@@ -46,6 +46,7 @@
 
 - [ ] Sandstorm gives Rock Pokemon 50% extra SpDef
 - [ ] Hail gives Ice Pokemon 50% extra Def
+- [ ] Reckless
 - [ ] Adaptability
 - [ ] Heatproof
 - [ ] Reckless
