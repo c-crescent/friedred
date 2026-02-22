@@ -2533,8 +2533,8 @@ const struct WildPokemon sRoute6_FireRed_FishingMons[] =
 {
     { 5, 15, SPECIES_CARVANHA },
     { 5, 15, SPECIES_FEEBAS },
-    { 15, 20, SPECIES_FEEBAS },
-    { 15, 20, SPECIES_CARVANHA },
+    { 15, 20, SPECIES_POLIWAG },
+    { 15, 20, SPECIES_HORSEA },
     { 15, 20, SPECIES_SHELLDER },
     { 15, 25, SPECIES_POLIWAG },
     { 20, 30, SPECIES_POLIWHIRL },
@@ -6659,8 +6659,8 @@ const struct WildPokemon sRoute6_LeafGreen_FishingMons[] =
 {
     { 5, 15, SPECIES_CARVANHA },
     { 5, 15, SPECIES_FEEBAS },
-    { 15, 20, SPECIES_FEEBAS },
-    { 15, 20, SPECIES_CARVANHA },
+    { 15, 20, SPECIES_POLIWAG },
+    { 15, 20, SPECIES_HORSEA },
     { 15, 20, SPECIES_SHELLDER },
     { 15, 25, SPECIES_POLIWAG },
     { 20, 30, SPECIES_POLIWHIRL },
