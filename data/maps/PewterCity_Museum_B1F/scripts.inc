@@ -20,9 +20,6 @@ PewterCity_Museum_B1F_EventScript_FlashScientist::
 	giveitem_msg PewterCity_Museum_B1F_Text_ReceivedHM05FromScientist, ITEM_HM05
 	setflag FLAG_GOT_HM05
 	msgbox PewterCity_Museum_B1F_Text_ExplainHM05
-	delay 15
-	animateflash 0
-	setflashlevel 0
 	release
 	end
 

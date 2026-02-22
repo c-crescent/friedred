@@ -3007,9 +3007,9 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
             }
         }
     }
-    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM02_FLY - ITEM_TM01_FOCUS_PUNCH)) 
+    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM02_FLY - ITEM_TM01_FOCUS_PUNCH) && CheckBagHasItem(ITEM_HM02, 1)) 
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 2 + CURSOR_OPTION_FIELD_MOVES);
-    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM05_FLASH - ITEM_TM01_FOCUS_PUNCH)) 
+    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM05_FLASH - ITEM_TM01_FOCUS_PUNCH) && CheckBagHasItem(ITEM_HM05, 1)) 
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 0 + CURSOR_OPTION_FIELD_MOVES);
     if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, CURSOR_OPTION_SWITCH);
