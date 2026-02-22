@@ -4,6 +4,7 @@ EventScript_CutTree::
 	checkitem ITEM_HM01, 1
 	vgoto_if_eq VAR_RESULT, FALSE, EventScript_CantCutTree
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CantCutTree
+	setfieldeffectargument 0, 0
 	msgbox Text_CutTreeDown, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
 	goto_if_eq EventScript_DontCutTree
