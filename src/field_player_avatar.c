@@ -10,6 +10,7 @@
 #include "field_effect_helpers.h"
 #include "field_player_avatar.h"
 #include "help_system.h"
+#include "items.h"
 #include "metatile_behavior.h"
 #include "new_menu_helpers.h"
 #include "overworld.h"
@@ -1263,7 +1264,7 @@ bool8 PartyHasMonWithSurf(void)
         {
             if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == SPECIES_NONE)
                 break;
-            if (CanMonLearnTMHM(&gPlayerParty[i], MOVE_SURF))
+            if (CanMonLearnTMHM(&gPlayerParty[i], ITEM_HM03_SURF - ITEM_TM01_FOCUS_PUNCH))
                 return TRUE;
         }
     }

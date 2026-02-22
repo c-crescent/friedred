@@ -3000,20 +3000,17 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     {
         for (j = 0; sFieldMoves[j] != FIELD_MOVE_END; ++j)
         {
-            if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == sFieldMoves[j])
+            if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == sFieldMoves[j] && sFieldMoves[j] != MOVE_FLY && sFieldMoves[j] != MOVE_FLASH)
             {
-                if (sFieldMoves[j] != MOVE_FLY) // If Mon already knows FLY, prevent it from being added to action list
-                    if (sFieldMoves[j] != MOVE_FLASH) // If Mon already knows FLASH, prevent it from being added to action list
-                        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + CURSOR_OPTION_FIELD_MOVES);
-                        break;
+                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + CURSOR_OPTION_FIELD_MOVES);
                 break;
             }
         }
     }
-    if (sPartyMenuInternal->numActions < 5 && CanMonLearnTMHM(&mons[slotId], ITEM_HM02 - ITEM_TM01)) // If Mon can learn HM02 and action list consists of < 4 moves, add FLY to action list
-        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 5 + CURSOR_OPTION_FIELD_MOVES);
-    if (sPartyMenuInternal->numActions < 5 && CanMonLearnTMHM(&mons[slotId], ITEM_HM05 - ITEM_TM01)) // If Mon can learn HM05 and action list consists of < 4 moves, add FLASH to action list
-        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 1 + CURSOR_OPTION_FIELD_MOVES);
+    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM02_FLY - ITEM_TM01_FOCUS_PUNCH)) 
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 2 + CURSOR_OPTION_FIELD_MOVES);
+    if (CanMonLearnTMHM(&mons[slotId], ITEM_HM05_FLASH - ITEM_TM01_FOCUS_PUNCH)) 
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 0 + CURSOR_OPTION_FIELD_MOVES);
     if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, CURSOR_OPTION_SWITCH);
     if (ItemIsMail(GetMonData(&mons[slotId], MON_DATA_HELD_ITEM)))

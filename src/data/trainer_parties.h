@@ -7643,28 +7643,28 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderMisty[] = {
 static const struct TrainerMonItemCustomMoves sParty_LeaderLtSurge[] = {
     {
         .iv = 250,
-        .lvl = 25,
+        .lvl = 24,
         .species = SPECIES_FLAAFFY,
 		.heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_THUNDER_PUNCH, MOVE_COTTON_SPORE, MOVE_THUNDER_WAVE, MOVE_FIRE_PUNCH},
     },
     {
         .iv = 250,
-        .lvl = 27,
+        .lvl = 24,
         .species = SPECIES_LANTURN,
 		.heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_SPARK, MOVE_CONFUSE_RAY},
     },
     {
         .iv = 250,
-        .lvl = 25,
+        .lvl = 24,
         .species = SPECIES_MANECTRIC,
 		.heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_FLAMETHROWER, MOVE_SHOCK_WAVE, MOVE_CRUNCH, MOVE_THUNDER_WAVE},
     },
     {
         .iv = 250,
-        .lvl = 26,
+        .lvl = 25,
         .species = SPECIES_JOLTEON,
 		.heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_AGILITY, MOVE_SHOCK_WAVE, MOVE_PIN_MISSILE, MOVE_BATON_PASS},

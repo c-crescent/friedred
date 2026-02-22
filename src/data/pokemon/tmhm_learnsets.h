@@ -7986,6 +7986,7 @@ static const u8 sWingullTMHMLearnset[] =
     TMHM(TM46_THIEF),
     TMHM(TM47_STEEL_WING),
     TMHM(HM02_FLY),
+    TMHM(HM03_SURF),
     0xFF,
 };
 

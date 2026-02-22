@@ -170,7 +170,6 @@ VermilionCity_Text_JustCaughtASquirtle::
     .string "to set it straight.$"
 
 VermilionCity_Text_WantThisSquirtle::
-    .string "You have the THUNDERBADGE?\p"
     .string "You must be a good TRAINER!\p"
     .string "I just caught a SQUIRTLE that was\n"
     .string "always getting into misschief.\p"
