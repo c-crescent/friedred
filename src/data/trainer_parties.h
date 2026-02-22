@@ -7384,7 +7384,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLorelei[] = {
         .species = SPECIES_PILOSWINE,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 1,
-        .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_ICE_BEAM, MOVE_ICICLE_SPEAR},
+        .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_ICE_BEAM, MOVE_ICICLE_SPEAR},
     },
     {
         .iv = 250,
@@ -7403,7 +7403,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno[] = {
         .species = SPECIES_HARIYAMA,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {MOVE_KNOCK_OFF, MOVE_CROSS_CHOP, MOVE_ROCK_SLIDE, MOVE_BRICK_BREAK},
+        .moves = {MOVE_KNOCK_OFF, MOVE_CROSS_CHOP, MOVE_STONE_EDGE, MOVE_BRICK_BREAK},
     },
     {
         .iv = 250,
@@ -7435,7 +7435,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno[] = {
         .species = SPECIES_HITMONLEE,
         .heldItem = ITEM_BLACK_BELT,
         .abilityNum = 0,
-        .moves = {MOVE_HI_JUMP_KICK, MOVE_EARTHQUAKE, MOVE_MACH_PUNCH, MOVE_ROCK_SLIDE},
+        .moves = {MOVE_HI_JUMP_KICK, MOVE_EARTHQUAKE, MOVE_MACH_PUNCH, MOVE_DOUBLE_EDGE},
 	},
     {
         .iv = 250,
@@ -7443,7 +7443,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno[] = {
         .species = SPECIES_MACHAMP,
         .heldItem = ITEM_BLACK_BELT,
         .abilityNum = 1,
-        .moves = {MOVE_CROSS_CHOP, MOVE_DYNAMIC_PUNCH, MOVE_THIEF, MOVE_BULLET_PUNCH},
+        .moves = {MOVE_STONE_EDGE, MOVE_DYNAMIC_PUNCH, MOVE_THIEF, MOVE_BULLET_PUNCH},
     },
 };
 
