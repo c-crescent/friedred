@@ -7505,7 +7505,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
         .species = SPECIES_GYARADOS,
         .heldItem = ITEM_LUM_BERRY,
         .abilityNum = 0,
-        .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_BOUNCE, MOVE_HYDRO_PUMP},
+        .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_BOUNCE, MOVE_CRUNCH},
     },
     {
         .iv = 250,
@@ -7513,7 +7513,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
         .species = SPECIES_AERODACTYL,
         .heldItem = ITEM_CHOICE_BAND,
         .abilityNum = 0,
-        .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_SKY_ATTACK, MOVE_DOUBLE_EDGE},
+        .moves = {MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_SKY_ATTACK, MOVE_DOUBLE_EDGE},
     },
     {
         .iv = 250,
@@ -7529,7 +7529,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
         .species = SPECIES_SALAMENCE,
         .heldItem = ITEM_LUM_BERRY,
         .abilityNum = 0,
-        .moves = {MOVE_DRAGON_DANCE, MOVE_ROCK_SLIDE, MOVE_DRACO_METEOR, MOVE_EARTHQUAKE},
+        .moves = {MOVE_DRAGON_DANCE, MOVE_ROCK_SLIDE, MOVE_CRUNCH, MOVE_EARTHQUAKE},
     },
     {
         .iv = 250,
