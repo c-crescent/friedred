@@ -362,6 +362,7 @@ const u8 gMoveDescription_RockPolish[] = _("The user polishes\nits body to reduc
 const u8 gMoveDescription_XScissor[] = _("The user slashes at\nthe foe with claws.");
 const u8 gMoveDescription_DracoMeteor[] = _("Comets are summoned down\nfrom the sky.\nAlso sharply reduces\nthe user's spATK stat.");
 const u8 gMoveDescription_IronHead[] = _("The foe slams the target\nwith its steel-hard head.\nIt may also make\nthe target flinch.");
+const u8 gMoveDescription_StoneEdge[] = _("Stab the foe with\na sharpened stone.\nIt has a high\ncritical-hit ratio.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -725,4 +726,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_X_SCISSOR     - 1] = gMoveDescription_XScissor,
     [MOVE_DRACO_METEOR  - 1] = gMoveDescription_DracoMeteor,
     [MOVE_IRON_HEAD     - 1] = gMoveDescription_IronHead,
+    [MOVE_STONE_EDGE    - 1] = gMoveDescription_StoneEdge,
 };

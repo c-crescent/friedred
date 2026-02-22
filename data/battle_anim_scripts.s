@@ -381,6 +381,7 @@ gBattleAnims_Moves::
 	.4byte Move_X_SCISSOR
 	.4byte Move_DRACO_METEOR
 	.4byte Move_IRON_HEAD
+	.4byte Move_STONE_EDGE
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -9291,6 +9292,7 @@ Move_BLAST_BURN:
 	blendoff
 	end
 
+Move_STONE_EDGE:
 Move_ROCK_TOMB:
 	loadspritegfx ANIM_TAG_X_SIGN
 	loadspritegfx ANIM_TAG_ROCKS
