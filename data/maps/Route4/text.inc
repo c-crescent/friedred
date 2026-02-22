@@ -50,7 +50,7 @@ Text_MegaPunchReteach::
     .string "A punch so powerful, you can't\n"
     .string "help but want to learn it again!\p"
     .string "I can teach you the power-packed\n"
-    .string "MEGA PUNCH again for ¥5000!$"
+    .string "MEGA PUNCH again for ¥500!$"
 
 Text_MegaPunchReteach2::
     .string "Do you want me to teach MEGA PUNCH\n"
@@ -58,7 +58,7 @@ Text_MegaPunchReteach2::
 
 Text_MegaPunchNotEnoughMoney::
     .string "Money is packed with power too,\n"
-    .string "and without ¥5000, I can't teach\l"
+    .string "and without ¥500, I can't teach\l"
     .string "MEGA PUNCH to your POKéMON!$"
 
 Text_MegaKickTeach::
@@ -89,7 +89,7 @@ Text_MegaKickReteach::
     .string "A kick so powerful, you can't\n"
     .string "help but want to learn it again!\p"
     .string "I can teach you the power-packed\n"
-    .string "MEGA KICK again for ¥5000!$"
+    .string "MEGA KICK again for ¥500!$"
 
 Text_MegaKickReteach2::
     .string "Do you want me to teach MEGA KICK\n"
@@ -97,7 +97,7 @@ Text_MegaKickReteach2::
 
 Text_MegaKickNotEnoughMoney::
     .string "Money is packed with power too,\n"
-    .string "and without ¥5000, I can't teach\l"
+    .string "and without ¥500, I can't teach\l"
     .string "MEGA KICK to your POKéMON!$"
 
 Route4_Text_PeopleLikeAndRespectBrock::

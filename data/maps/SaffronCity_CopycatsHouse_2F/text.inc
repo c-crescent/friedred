@@ -60,19 +60,19 @@ Text_MimicReteach::
     .string "COPYCAT: Absolutely!\n"
     .string "It's a scream!\p"
     .string "I can reteach MIMIC if you'll give\n"
-    .string "me ¥5000 for more dolls!$"
+    .string "me ¥500 for more dolls!$"
 
 Text_MimicReteach2::
     .string "Is that okay?\n"
     .string "Should I mimic teaching MIMIC?$"
 
 Text_MimicNotEnoughMoney::
-    .string "{PLAYER}: ¥5000?\n"
+    .string "{PLAYER}: ¥500?\n"
     .string "But a POKé DOLL only costs ¥1000!\p"
     .string "I don't have enough money for\n"
     .string "that right now…\p"
     .string "COPYCAT: I want to buy five\n"
-    .string "POKé DOLLS! So I need ¥5000!\p"
+    .string "POKé DOLLS! So I need ¥500!\p"
     .string "I'll mimic teaching MIMIC to\n"
     .string "your POKéMON when you have it!$"
 

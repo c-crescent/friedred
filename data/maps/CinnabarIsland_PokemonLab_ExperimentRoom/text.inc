@@ -23,7 +23,7 @@ Text_MetronomeReteach::
     .string "Tch-tch-tch!\n"
     .string "The METRONOME ticks eternally!\p"
     .string "I'll teach you METRONOME again\n"
-    .string "in exchange for ¥5000.$"
+    .string "in exchange for ¥500.$"
 
 Text_MetronomeReteach2::
     .string "Tch-tch-tch!\n"

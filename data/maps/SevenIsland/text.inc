@@ -18,7 +18,7 @@ Text_SwordsDanceReteach::
     .string "and stronger…\p"
     .string "I've heard that vitamins strengthen\n"
     .string "POKéMON, but they're so expensive!\p"
-    .string "So, I started charging ¥5000 to\n"
+    .string "So, I started charging ¥500 to\n"
     .string "teach other POKéMON SWORDS DANCE.$"
 
 Text_SwordsDanceReteach2::
@@ -26,7 +26,7 @@ Text_SwordsDanceReteach2::
     .string "POKéMON the move SWORDS DANCE?$"
 
 Text_SwordsDanceNotEnoughMoney::
-    .string "You don't have ¥5000?\p"
+    .string "You don't have ¥500?\p"
     .string "I'm sorry, but I need the money\n"
     .string "to make my POKéMON strong.\p"
     .string "I'll teach SWORDS DANCE to you\n"

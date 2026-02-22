@@ -31,7 +31,7 @@ EventScript_DoubleEdgeReteach::
 	showmoneybox 0, 0
 	msgbox Text_DoubleEdgeReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DoubleEdgeDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_DoubleEdgeNotEnoughMoney
 	msgbox Text_DoubleEdgeWhichMon
 	setvar VAR_0x8005, MOVETUTOR_DOUBLE_EDGE
@@ -90,7 +90,7 @@ EventScript_ThunderWaveReteach::
 	showmoneybox 0, 0
 	msgbox Text_ThunderWaveReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ThunderWaveDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_ThunderWaveNotEnoughMoney
 	msgbox Text_ThunderWaveWhichMon
 	setvar VAR_0x8005, MOVETUTOR_THUNDER_WAVE
@@ -149,7 +149,7 @@ EventScript_RockSlideReteach::
 	showmoneybox 0, 0
 	msgbox Text_RockSlideReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_RockSlideNotEnoughMoney
 	msgbox Text_RockSlideWhichMon
 	setvar VAR_0x8005, MOVETUTOR_ROCK_SLIDE
@@ -208,7 +208,7 @@ EventScript_ExplosionReteach::
 	showmoneybox 0, 0
 	msgbox Text_ExplosionReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ExplosionDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_ExplosionNotEnoughMoney
 	msgbox Text_ExplosionWhichMon
 	setvar VAR_0x8005, MOVETUTOR_EXPLOSION
@@ -267,7 +267,7 @@ EventScript_MegaPunchReteach::
 	showmoneybox 0, 0
 	msgbox Text_MegaPunchReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MegaPunchDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MegaPunchNotEnoughMoney
 	msgbox Text_MegaPunchWhichMon
 	setvar VAR_0x8005, MOVETUTOR_MEGA_PUNCH
@@ -326,7 +326,7 @@ EventScript_MegaKickReteach::
 	showmoneybox 0, 0
 	msgbox Text_MegaKickReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MegaKickDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MegaKickNotEnoughMoney
 	msgbox Text_MegaKickWhichMon
 	setvar VAR_0x8005, MOVETUTOR_MEGA_KICK
@@ -385,7 +385,7 @@ EventScript_DreamEaterReteach::
 	showmoneybox 0, 0
 	msgbox Text_DreamEaterReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DreamEaterDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_DreamEaterNotEnoughMoney
 	msgbox Text_DreamEaterWhichMon
 	setvar VAR_0x8005, MOVETUTOR_DREAM_EATER
@@ -444,7 +444,7 @@ EventScript_SoftboiledReteach::
 	showmoneybox 0, 0
 	msgbox Text_SoftboiledReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SoftboiledDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SoftboiledNotEnoughMoney
 	msgbox Text_SoftboiledWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SOFT_BOILED
@@ -503,7 +503,7 @@ EventScript_SubstituteReteach::
 	showmoneybox 0, 0
 	msgbox Text_SubstituteReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SubstituteDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SubstituteNotEnoughMoney
 	msgbox Text_SubstituteWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SUBSTITUTE
@@ -562,7 +562,7 @@ EventScript_SwordsDanceReteach::
 	showmoneybox 0, 0
 	msgbox Text_SwordsDanceReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SwordsDanceDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SwordsDanceNotEnoughMoney
 	msgbox Text_SwordsDanceWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SWORDS_DANCE
@@ -621,7 +621,7 @@ EventScript_SeismicTossReteach::
 	showmoneybox 0, 0
 	msgbox Text_SeismicTossReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SeismicTossDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SeismicTossNotEnoughMoney
 	msgbox Text_SeismicTossWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SEISMIC_TOSS
@@ -680,7 +680,7 @@ EventScript_CounterReteach::
 	showmoneybox 0, 0
 	msgbox Text_CounterReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_CounterDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_CounterNotEnoughMoney
 	msgbox Text_CounterWhichMon
 	setvar VAR_0x8005, MOVETUTOR_COUNTER
@@ -739,7 +739,7 @@ EventScript_MetronomeReteach::
 	showmoneybox 0, 0
 	msgbox Text_MetronomeReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MetronomeDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MetronomeNotEnoughMoney
 	msgbox Text_MetronomeWhichMon
 	setvar VAR_0x8005, MOVETUTOR_METRONOME
@@ -809,7 +809,7 @@ EventScript_MimicReteach::
 	showmoneybox 0, 0
 	msgbox Text_MimicReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MimicDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MimicNotEnoughMoney
 	msgbox Text_MimicWhichMon
 	setvar VAR_0x8005, MOVETUTOR_MIMIC
@@ -882,7 +882,7 @@ EventScript_BodySlamReteach::
 	showmoneybox 0, 0
 	msgbox Text_BodySlamReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_BodySlamDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BodySlamNotEnoughMoney
 	msgbox Text_BodySlamWhichMon
 	setvar VAR_0x8005, MOVETUTOR_BODY_SLAM
@@ -1082,7 +1082,7 @@ EventScript_FuryCutterReteach::
 	showmoneybox 0, 0
 	msgbox Text_FuryCutterReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_FuryCutterDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_FuryCutterNotEnoughMoney
 	msgbox MoveTutor_Text_FuryCutterWhichMon
 	setvar VAR_0x8005, MOVETUTOR_FURY_CUTTER
@@ -1177,7 +1177,7 @@ EventScript_RolloutReteach::
 	showmoneybox 0, 0
 	msgbox Text_RolloutReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_RolloutDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_RolloutNotEnoughMoney
 	msgbox MoveTutor_Text_RolloutWhichMon
 	setvar VAR_0x8005, MOVETUTOR_ROLLOUT
@@ -1283,7 +1283,7 @@ EventScript_DynamicPunchReteach::
 	showmoneybox 0, 0
 	msgbox Text_DynamicPunchReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DynamicPunchDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_DynamicPunchNotEnoughMoney
 	msgbox MoveTutor_Text_DynamicPunchWhichMon
 	setvar VAR_0x8005, MOVETUTOR_DYNAMIC_PUNCH
@@ -1397,7 +1397,7 @@ EventScript_SleepTalkReteach::
 	showmoneybox 0, 0
 	msgbox Text_SleepTalkReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SleepTalkDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SleepTalkNotEnoughMoney
 	msgbox MoveTutor_Text_SleepTalkWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SLEEP_TALK
@@ -1517,7 +1517,7 @@ EventScript_NightmareReteach::
 	showmoneybox 0, 0
 	msgbox Text_NightmareReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_NightmareDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_NightmareNotEnoughMoney
 	msgbox MoveTutor_Text_NightmareWhichMon
 	setvar VAR_0x8005, MOVETUTOR_NIGHTMARE
@@ -1631,7 +1631,7 @@ EventScript_SelfdestructReteach::
 	showmoneybox 0, 0
 	msgbox Text_SelfdestructReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SelfdestructDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SelfdestructNotEnoughMoney
 	msgbox MoveTutor_Text_SelfdestructWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SELF_DESTRUCT
@@ -1752,7 +1752,7 @@ EventScript_SkyAttackReteach::
 	showmoneybox 0, 0
 	msgbox Text_SkyAttackReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SkyAttackDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SkyAttackNotEnoughMoney
 	msgbox MoveTutor_Text_SkyAttackWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SKY_ATTACK
@@ -1862,7 +1862,7 @@ EventScript_SwaggerReteach::
 	showmoneybox 0, 0
 	msgbox Text_SwaggerReteach2, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SwaggerDeclined2
-	checkmoney 1000, 0
+	checkmoney 500, 0
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SwaggerNotEnoughMoney
 	msgbox MoveTutor_Text_SwaggerWhichMon
 	setvar VAR_0x8005, MOVETUTOR_SWAGGER

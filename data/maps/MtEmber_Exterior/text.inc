@@ -28,7 +28,7 @@ Text_ExplosionReteach::
 
 Text_ExplosionReteach2::
     .string "If you want more thrills, I can\n"
-    .string "teach you EXPLOSION for ¥5000.$"
+    .string "teach you EXPLOSION for ¥500.$"
 
 Text_ExplosionNotEnoughMoney::
     .string "You don't have enough money!\p"
@@ -36,7 +36,7 @@ Text_ExplosionNotEnoughMoney::
     .string "with us on it, we wouldn't need\l"
     .string "money anymore…\p"
     .string "Until that happens, I won't teach\n"
-    .string "you EXPLOSION without ¥5000!$"
+    .string "you EXPLOSION without ¥500!$"
 
 MtEmber_Exterior_Text_WellTryDiggingHere::
     .string "Over here.\n"

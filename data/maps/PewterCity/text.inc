@@ -25,7 +25,7 @@ Text_DreamEaterReteach::
     .string "EATER, I still can't forget how to\l"
     .string "eat dreams!\p"
     .string "I'll keep teaching your POKéMON\n"
-    .string "DREAM EATER for ¥5000.$"
+    .string "DREAM EATER for ¥500.$"
 
 Text_DreamEaterReteach2::
     .string "Do you want me to teach\n"
@@ -34,7 +34,7 @@ Text_DreamEaterReteach2::
 Text_DreamEaterNotEnoughMoney::
     .string "The only thing spookier than\n"
     .string "DREAM EATER is not having the\l"
-    .string "¥5000 to learn it!\p"
+    .string "¥500 to learn it!\p"
     .string "I'll be happy to teach it to a\n"
     .string "POKéMON when you have enough money.$"
 

@@ -28,7 +28,7 @@ Text_BodySlamReteach::
     .string "Hmm… And we'd still squash you\n"
     .string "if you tried to join in.\p"
     .string "How about I teach POKéMON\n"
-    .string "BODY SLAM instead for ¥5000?$"
+    .string "BODY SLAM instead for ¥500?$"
 
 Text_BodySlamReteach2::
     .string "Do you want me to teach your\n"
@@ -36,7 +36,7 @@ Text_BodySlamReteach2::
 
 Text_BodySlamNotEnoughMoney::
     .string "Boing? What's this?\n"
-    .string "You don't have ¥5000?\p"
+    .string "You don't have ¥500?\p"
     .string "Well, you definitely can't join\n"
     .string "our match, it's unsafe!\p"
     .string "Come back later with the money,\n"

@@ -75,7 +75,7 @@ Text_ThunderWaveReteach::
     .string "Sorry, I'm still a little jumpy.\p"
     .string "I can teach you the THUNDER WAVE\n"
     .string "technique again if you'd like,\l"
-    .string "but I'd have to charge you ¥5000.$"
+    .string "but I'd have to charge you ¥500.$"
 
 Text_ThunderWaveReteach2::
     .string "Would you like me to teach you\n"
@@ -86,7 +86,7 @@ Text_ThunderWaveNotEnoughMoney::
     .string "to charge to teach this move.\p"
     .string "If I taught it to you for free\n"
     .string "again, I could get in trouble.\p"
-    .string "Come back when you have ¥5000\n"
+    .string "Come back when you have ¥500\n"
     .string "and I'll teach you THUNDER WAVE.$"
 
 SilphCo_2F_Text_FloorSign::

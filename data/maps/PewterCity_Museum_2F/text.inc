@@ -28,7 +28,7 @@ Text_SeismicTossReteach::
     .string "The only thing you should toss is\n"
     .string "another POKéMON with SEISMIC TOSS!\p"
     .string "I can teach it to your POKéMON\n"
-    .string "again for ¥5000.$"
+    .string "again for ¥500.$"
 
 Text_SeismicTossReteach2::
     .string "Well, how about it?\n"
@@ -38,7 +38,7 @@ Text_SeismicTossReteach2::
 Text_SeismicTossNotEnoughMoney::
     .string "I'm afraid I have to toss in\n"
     .string "the towel on teaching your POKéMON\l"
-    .string "if you don't have ¥5000…$"
+    .string "if you don't have ¥500…$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
     .string "MOON STONE, huh?\p"

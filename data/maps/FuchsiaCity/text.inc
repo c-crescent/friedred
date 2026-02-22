@@ -110,7 +110,7 @@ Text_SubstituteReteach::
     .string "If only I could sub in for the\n"
     .string "baby, we could take shifts!\p"
     .string "I can teach SUBSTITUTE to one\n"
-    .string "of your POKéMON again for ¥5000!$"
+    .string "of your POKéMON again for ¥500!$"
 
 Text_SubstituteReteach2::
     .string "Want me to teach SUBSTITUTE to\n"
@@ -121,7 +121,7 @@ Text_SubstituteNotEnoughMoney::
     .string "to catch one, I need money for\l"
     .string "lots of SAFARI ZONE trips.\p"
     .string "I can't afford to teach SUBSTITUTE\n"
-    .string "for less than ¥5000 anymore!$"
+    .string "for less than ¥500 anymore!$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
     .string "My father is the GYM LEADER of\n"

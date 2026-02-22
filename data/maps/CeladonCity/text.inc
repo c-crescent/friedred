@@ -110,14 +110,14 @@ Text_SoftboiledReteach::
     .string "you like me to teach SOFTBOILED\l"
     .string "to your POKéMON?\p"
     .string "I can teach it again for\n"
-    .string "only ¥5000!$"
+    .string "only ¥500!$"
 
 Text_SoftboiledReteach2::
     .string "Would you like me to teach\n"
     .string "your POKéMON SOFTBOILED?$"
 
 Text_SoftboiledNotEnoughMoney::
-    .string "You don't have ¥5000!\n"
+    .string "You don't have ¥500!\n"
     .string "Come back again when you do.$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::

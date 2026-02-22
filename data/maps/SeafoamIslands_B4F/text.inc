@@ -23,7 +23,7 @@ Text_RockSlideReteach::
     .string "You really aren't afraid of rockslides\n"
     .string "if you're here spelunking again.\p"
     .string "I can teach you ROCK SLIDE\n"
-    .string "once more if you can pay ¥5000.$"
+    .string "once more if you can pay ¥500.$"
 
 Text_RockSlideReteach2::
     .string "Would you like me to teach\n"
@@ -35,7 +35,7 @@ Text_RockSlideNotEnoughMoney::
     .string "If I don't charge for my services,\n"
     .string "I can't afford to keep exploring!\p"
     .string "If you want to learn ROCK SLIDE,\n"
-    .string "come back with ¥5000.$"
+    .string "come back with ¥500.$"
 
 SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
     .string "Hint: Boulders might change the\n"
