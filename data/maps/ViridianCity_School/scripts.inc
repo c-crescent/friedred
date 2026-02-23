@@ -33,7 +33,7 @@ ViridianCity_School_EventScript_Woman::
 	goto_if_unset FLAG_SYS_POKEDEX_GET, ViridianCity_School_EventScript_WomanNoPokedex
 	msgbox ViridianCity_School_Text_NatureChange, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, ViridianCity_School_EventScript_WomanNoPokedex	
-	multichoicegrid 0, 1, MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE, 5, TRUE
+	multichoicegrid 0, 1, MULTICHOICE_TRAINER_SCHOOL_NATURE_CHANGE, 5, FALSE
 	switch VAR_RESULT
 	case 0, ViridianCity_School_Hardy
 	case 1, ViridianCity_School_Lonely
@@ -60,6 +60,7 @@ ViridianCity_School_EventScript_Woman::
 	case 22, ViridianCity_School_Sassy
 	case 23, ViridianCity_School_Careful
 	case 24, ViridianCity_School_Quirky
+	case 127, ViridianCity_School_EventScript_WomanNoPokedex
 	end
 ViridianCity_School_Hardy::
 	setvar VAR_0x8014, 0

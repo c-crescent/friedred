@@ -8,14 +8,12 @@ ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "blackboard carefully!$"
 
 ViridianCity_School_Text_NatureChange::
-    .string "Would you like to change\n"
-    .string "the NATURE of your 1st POKéMON?\p"
-    .string "Be warned. This will come\n"
-    .string "with unexpected side effects.$"
+    .string "Would you like to change your\n"
+    .string "lead POKéMON's personality?$"
 
 ViridianCity_School_Text_NatureCompleted::
-    .string "The NATURE of your POKéMON has\n"
-    .string "been changed successfully!$"
+    .string "The personality of your POKéMON\n"
+    .string "has been changed successfully!$"
 ViridianCity_School_Text_NotebookFirstPage::
     .string "Let's check out the notebook.\p"
     .string "First page…\p"
