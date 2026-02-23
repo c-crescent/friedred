@@ -378,6 +378,7 @@ gBattleAnims_Moves::
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_CRUSH_GRIP
 	.4byte Move_BULLET_PUNCH
+	.4byte Move_ROCK_POLISH
 	.4byte Move_X_SCISSOR
 	.4byte Move_DRACO_METEOR
 	.4byte Move_IRON_HEAD
