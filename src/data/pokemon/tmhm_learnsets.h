@@ -3403,6 +3403,7 @@ static const u8 sScytherTMHMLearnset[] =
     TMHM(TM46_THIEF),
     TMHM(TM47_STEEL_WING),
     TMHM(HM01_CUT),
+    TMHM(HM02_FLY),
     TMHM(HM06_ROCK_SMASH),
     0xFF,
 };

@@ -3386,7 +3386,7 @@ const struct WildPokemon sCeladonCity_FireRed_LandMons[] =
     { 27, 27, SPECIES_BEAUTIFLY },
     { 28, 28, SPECIES_BUTTERFREE },
     { 29, 29, SPECIES_BEEDRILL },
-    { 27, 27, SPECIES_BEEDRILL },
+    { 27, 27, SPECIES_SCYTHER },
 };
 
 const struct WildPokemonInfo sCeladonCity_FireRed_LandMonsInfo = { 43, sCeladonCity_FireRed_LandMons };
@@ -7512,7 +7512,7 @@ const struct WildPokemon sCeladonCity_LeafGreen_LandMons[] =
     { 27, 27, SPECIES_BEAUTIFLY },
     { 28, 28, SPECIES_BUTTERFREE },
     { 29, 29, SPECIES_BEEDRILL },
-    { 27, 27, SPECIES_BEEDRILL },
+    { 27, 27, SPECIES_SCYTHER },
 };
 
 const struct WildPokemonInfo sCeladonCity_LeafGreen_LandMonsInfo = { 43, sCeladonCity_LeafGreen_LandMons };
