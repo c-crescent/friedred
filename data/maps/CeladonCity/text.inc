@@ -4,8 +4,8 @@ CeladonCity_Text_GotMyKoffingInCinnabar::
     .string "poison when it's angry.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "This GYM is great!\n"
+    .string "It's full of other women!$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
     .string "CELADON takes pride in its efforts\n"
