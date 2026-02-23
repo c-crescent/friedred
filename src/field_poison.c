@@ -33,8 +33,10 @@ static void FaintFromFieldPoison(u8 partyIdx)
 {
     struct Pokemon *pokemon = gPlayerParty + partyIdx;
     u32 status = STATUS1_NONE;
-    AdjustFriendship(pokemon, FRIENDSHIP_EVENT_FAINT_OUTSIDE_BATTLE);
+    u32 hp = 1;
+
     SetMonData(pokemon, MON_DATA_STATUS, &status);
+    SetMonData(pokemon, MON_DATA_HP, &hp);
     GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
     StringGet_Nickname(gStringVar1);
 }
@@ -61,7 +63,7 @@ static void Task_TryFieldPoisonWhiteOut(u8 taskId)
             if (MonFaintedFromPoison(tPartyId))
             {
                 FaintFromFieldPoison(tPartyId);
-                ShowFieldMessage(gText_PkmnFainted3);
+                ShowFieldMessage(gText_PkmnCuredOfPoison);
                 tState++;
                 return;
             }
