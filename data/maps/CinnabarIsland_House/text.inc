@@ -12,3 +12,7 @@ CinnabarIsland_House_Text_OldLady::
 CinnabarIsland_House_EventScript_FossilNoBagSpace::
 	.string "You don't have space for this in\n"
     .string "your BAG.$"
+
+CinnabarIsland_House_Text_OldLady2::
+	.string "It's another beautiful day\n"
+	.string "on the island.$"
