@@ -124,6 +124,7 @@ EventScript_StrengthBoulder::
 	vgoto_if_eq VAR_RESULT, FALSE, EventScript_CantMoveBoulder
 	goto_if_unset FLAG_BADGE04_GET, EventScript_CantMoveBoulder
 	goto_if_set FLAG_SYS_USE_STRENGTH, EventScript_AlreadyUsedStrength
+	setfieldeffectargument 0, 0
 	msgbox Text_UseStrength, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
 	goto_if_eq EventScript_DontUseStrength
