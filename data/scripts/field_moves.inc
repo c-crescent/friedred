@@ -65,6 +65,9 @@ EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
 	lockall
 	goto_if_unset FLAG_BADGE06_GET, EventScript_CantSmashRock
+	setfieldeffectargument 0, 0
+	bufferpartymonnick STR_VAR_1, 0
+	buffermovename STR_VAR_2, MOVE_ROCK_SMASH
 	msgbox Text_UseRockSmash, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
 	goto_if_eq EventScript_DontSmashRock
