@@ -5895,11 +5895,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_GIRAFARIG] =
     {
-        .baseHP = 70,
-        .baseAttack = 80,
+        .baseHP = 95,
+        .baseAttack = 85,
         .baseDefense = 65,
-        .baseSpeed = 85,
-        .baseSpAttack = 90,
+        .baseSpeed = 80,
+        .baseSpAttack = 100,
         .baseSpDefense = 65,
         .types = {TYPE_NORMAL, TYPE_PSYCHIC},
         .catchRate = 60,
