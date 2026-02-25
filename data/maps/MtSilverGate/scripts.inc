@@ -98,38 +98,3 @@ MtSilverGate_Movement_WalkUp::
 MtSilverGate_Movement_WalkDown::
 	walk_down
 	step_end
-
-MtSilverGate_Text_NoPass::
-	.string "I'm sorry mister,\n"
-	.string "you cannot go past here.\p"
-	.string "Come back when you have grown\n"
-	.string "significantly as a TRAINER.\p"
-	.string "Bwahaha!$"
-
-MtSilverGate_Text_Pass::
-	.string "I got word from the VIRIDIAN\n"
-	.string "GYM LEADER.\p"
-	.string "You can go through now.\n"
-	.string "Go right ahead, buddy!$"
-
-MtSilverGate_Text_NewBarkNoPass::
-	.string "Sorry buddy, past these routes\n"
-	.string "lies the JOHTO region.\p"
-	.string "There's nothing for you there.$"
-
-MtSilverGate_Text_NewBarkPass::
-	.string "I got word from the PROFESSOR.\p"
-	.string "You are allowed access to\n"
-	.string "ROUTE 26 and beyond.$"
-
-MtSilverGate_Text_Mt_Silver::
-	.string "MT. SILVER lies in this direction.\p"
-	.string "The strongest TRAINERS come here\n"
-	.string "to battle and train their POKéMON.$"
-
-MtSilverGate_Text_Route_26::
-	.string "ROUTE 26 lies in this direction.\p"
-	.string "You're heading for JOHTO, right?$"
-
-MtSilverGate_Text_Route_22::
-	.string "ROUTE 22 lies in this direction.$"
