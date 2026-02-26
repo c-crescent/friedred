@@ -1,9 +1,10 @@
 #include "constants/battle_tower.h"
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderLtSurgeRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderLtSurgeRematch[] = {
     {
         .iv = 255,
-        .lvl = 72,
+        .lvl = 75,
+        .evs = {0, 0, 0, 252, 252, 4},
         .species = SPECIES_MANECTRIC,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 1,
@@ -11,15 +12,17 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderLtSurgeRematch[] = {
     },
     {
         .iv = 255,
-        .lvl = 73,
-        .species = SPECIES_JOLTEON,
+        .lvl = 75,
+        .evs = {0, 0, 0, 252, 252, 4},
+        .species = SPECIES_LANTURN,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {MOVE_THUNDERBOLT, MOVE_SUBSTITUTE, MOVE_BATON_PASS, MOVE_WISH},
+        .moves = {MOVE_THUNDERBOLT, MOVE_SURF, MOVE_ICE_BEAM, MOVE_THUNDER},
     },
     {
         .iv = 255,
         .lvl = 73,
+        .evs = {0, 0, 0, 252, 252, 4},
         .species = SPECIES_ELECTABUZZ,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
@@ -27,27 +30,30 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderLtSurgeRematch[] = {
     },
     {
         .iv = 255,
-        .lvl = 72,
+        .lvl = 75,
+        .evs = {0, 0, 0, 252, 252, 4},
         .species = SPECIES_AMPHAROS,
-        .heldItem = ITEM_LEFTOVERS,
+        .heldItem = ITEM_CHOICE_SPECS,
         .abilityNum = 0,
         .moves = {MOVE_THUNDERBOLT, MOVE_FIRE_PUNCH, MOVE_REFLECT, MOVE_THUNDER_WAVE},
     },
     {
         .iv = 255,
-        .lvl = 74,
+        .lvl = 75,
+        .evs = {0, 0, 0, 252, 252, 4},
         .species = SPECIES_MAGNETON,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_METAL_SOUND, MOVE_SUBSTITUTE},
+        .moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_IRON_HEAD, MOVE_SUBSTITUTE},
     },
     {
         .iv = 255,
         .lvl = 75,
+        .evs = {0, 0, 0, 252, 252, 4},
         .species = SPECIES_RAICHU,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {MOVE_THUNDERBOLT, MOVE_SUBSTITUTE, MOVE_THUNDER_WAVE, MOVE_FOCUS_PUNCH},
+        .moves = {MOVE_THUNDERBOLT, MOVE_SUBSTITUTE, MOVE_SURF, MOVE_FOCUS_PUNCH},
     },
 };
 

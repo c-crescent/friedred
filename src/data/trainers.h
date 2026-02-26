@@ -10,7 +10,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderLtSurgeRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderLtSurgeRematch),
     },
     [TRAINER_LT_SURGE_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -30,7 +30,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderErikaRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderErikaRematch),
     },
     [TRAINER_ERIKA_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -7631,7 +7631,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderBrockRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderBrockRematch),
     },
     [TRAINER_BROCK_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -7651,7 +7651,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderMistyRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderMistyRematch),
     },
     [BRAIN_TRAINER_ANABEL] = {
         .trainerClass = TRAINER_CLASS_TOWER_TYCOON,
