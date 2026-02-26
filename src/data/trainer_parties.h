@@ -14405,10 +14405,11 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchCharmanderCh
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 4, 252, 0, 252, 0, 0},
         .species = SPECIES_TYRANITAR,
         .heldItem = ITEM_LEFTOVERS,
         .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CRUNCH},
@@ -14416,6 +14417,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 4, 252, 0, 252, 0, 0},
         .species = SPECIES_ARMALDO,
         .heldItem = ITEM_LEFTOVERS,
         .moves = {MOVE_X_SCISSOR, MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_ROCK_BLAST},
@@ -14423,6 +14425,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 4, 252, 0, 252, 0, 0},
         .species = SPECIES_GOLEM,
         .heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_ROAR, MOVE_EXPLOSION},
@@ -14430,6 +14433,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 4, 252, 0, 252, 0, 0},
         .species = SPECIES_AERODACTYL,
         .heldItem = ITEM_CHOICE_BAND,
         .abilityNum = 0,
@@ -14438,6 +14442,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 252, 252, 0, 0, 4, 0},
         .species = SPECIES_CRADILY,
         .heldItem = ITEM_LEFTOVERS,
         .moves = {MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_RECOVER, MOVE_ROCK_SLIDE},
@@ -14445,6 +14450,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 4, 252, 0, 252, 0, 0},
         .species = SPECIES_AGGRON,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 1,
@@ -14503,50 +14509,55 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBrockRematchChallenge
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderMistyRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderMistyRematch[] = {
     {
         .iv = 255,
-        .lvl = 72,
-        .species = SPECIES_CLOYSTER,
+        .lvl = 75,
+        .evs = { 252, 0, 4, 0, 252, 0},
+        .species = SPECIES_POLITOED,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {MOVE_SPIKES, MOVE_SURF, MOVE_TOXIC, MOVE_ICE_BEAM},
-    },
-    {
-        .iv = 255,
-        .lvl = 73,
-        .species = SPECIES_LANTURN,
-        .heldItem = ITEM_LEFTOVERS,
-        .abilityNum = 0,
-        .moves = {MOVE_THUNDERBOLT, MOVE_SURF, MOVE_REST, MOVE_SLEEP_TALK},
-    },
-    {
-        .iv = 255,
-        .lvl = 73,
-        .species = SPECIES_ALTARIA,
-        .heldItem = ITEM_LEFTOVERS,
-        .abilityNum = 1,
-        .moves = {MOVE_TOXIC, MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_REST},
-    },
-    {
-        .iv = 255,
-        .lvl = 72,
-        .species = SPECIES_SWAMPERT,
-        .heldItem = ITEM_LEFTOVERS,
-        .abilityNum = 0,
-        .moves = {MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_SURF, MOVE_PROTECT},
-    },
-    {
-        .iv = 255,
-        .lvl = 74,
-        .species = SPECIES_GYARADOS,
-        .heldItem = ITEM_LEFTOVERS,
-        .abilityNum = 0,
-        .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM, MOVE_THUNDER_WAVE},
+        .moves = {MOVE_PERISH_SONG, MOVE_SURF, MOVE_TOXIC, MOVE_ICE_BEAM},
     },
     {
         .iv = 255,
         .lvl = 75,
+        .evs = { 0, 0, 0, 252, 252, 4},
+        .species = SPECIES_KINGDRA,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_SURF, MOVE_ICE_BEAM, MOVE_DRACO_METEOR},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .evs = { 252, 0, 252, 0, 4, 0},
+        .species = SPECIES_PELIPPER,
+        .heldItem = ITEM_LEFTOVERS,
+        .abilityNum = 1,
+        .moves = {MOVE_TOXIC, MOVE_SKY_ATTACK, MOVE_ICE_BEAM, MOVE_SURF},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .evs = { 252, 0, 252, 0, 0, 4},
+        .species = SPECIES_TENTACRUEL,
+        .abilityNum = 0,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_ICE_BEAM, MOVE_SLUDGE_BOMB, MOVE_SURF, MOVE_PROTECT},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .evs = { 252, 0, 4, 0, 0, 252},
+        .species = SPECIES_LUDICOLO,
+        .heldItem = ITEM_LEFTOVERS,
+        .abilityNum = 1,
+        .moves = {MOVE_SURF, MOVE_GIGA_DRAIN, MOVE_SYNTHESIS, MOVE_LEECH_SEED},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .evs = { 0, 0, 0, 252, 252, 4},
         .species = SPECIES_STARMIE,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 1,
