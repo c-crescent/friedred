@@ -50,7 +50,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderKogaRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderKogaRematch),
     },
     [TRAINER_KOGA_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -70,7 +70,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderSabrinaRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderSabrinaRematch),
     },
     [TRAINER_SABRINA_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -90,7 +90,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderBlaineRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderBlaineRematch),
     },
     [TRAINER_BLAINE_REMATCH_CHALLENGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -250,7 +250,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderDaisy),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderDaisy),
     },
     [TRAINER_LEADER_GIOVANNI_REMATCH] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
@@ -260,7 +260,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_LeaderGiovanniRematch),
+        .party = CUSTOM_MOVES_EVS(sParty_LeaderGiovanniRematch),
     },
     [TRAINER_TEAM_ROCKET_JUNGLE] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
@@ -7330,7 +7330,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourLorelei2),
+        .party = CUSTOM_MOVES_EVS(sParty_EliteFourLorelei2),
     },
     [TRAINER_ELITE_FOUR_BRUNO_2] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -7340,7 +7340,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourBruno2),
+        .party = CUSTOM_MOVES_EVS(sParty_EliteFourBruno2),
     },
     [TRAINER_ELITE_FOUR_AGATHA_2] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -7350,7 +7350,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourAgatha2),
+        .party = CUSTOM_MOVES_EVS(sParty_EliteFourAgatha2),
     },
     [TRAINER_ELITE_FOUR_LANCE_2] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -7360,7 +7360,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourLance2),
+        .party = CUSTOM_MOVES_EVS(sParty_EliteFourLance2),
     },
     [TRAINER_CHAMPION_REMATCH_SQUIRTLE] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
@@ -7370,7 +7370,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchSquirtle),
+        .party = CUSTOM_MOVES_EVS(sParty_ChampionRematchSquirtle),
     },
     [TRAINER_CHAMPION_REMATCH_BULBASAUR] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
@@ -7380,7 +7380,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchBulbasaur),
+        .party = CUSTOM_MOVES_EVS(sParty_ChampionRematchBulbasaur),
     },
     [TRAINER_CHAMPION_REMATCH_CHARMANDER] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
@@ -7390,7 +7390,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchCharmander),
+        .party = CUSTOM_MOVES_EVS(sParty_ChampionRematchCharmander),
     },
     [TRAINER_CUE_BALL_PAXTON] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
