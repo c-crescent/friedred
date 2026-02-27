@@ -185,6 +185,8 @@ EventScript_Waterfall::
 	checkitem ITEM_HM07, 1
 	vgoto_if_eq VAR_RESULT, FALSE, EventScript_WaterCrashingDown
 	goto_if_unset FLAG_BADGE08_GET, EventScript_WaterCrashingDown
+	bufferpartymonnick STR_VAR_1, VAR_RESULT
+	setfieldeffectargument 0, VAR_RESULT
 	msgbox Text_UseWaterfall, MSGBOX_YESNO
 	compare VAR_RESULT, NO 
 	goto_if_eq EventScript_EndWaterfall
@@ -215,7 +217,10 @@ EventScript_DeepWater::
 	lockall
 	checkitem ITEM_HM08, 1
 	vgoto_if_eq VAR_RESULT, FALSE, EventScript_MayGoUnderwater
-	goto_if_unset FLAG_BADGE06_GET, EventScript_MayGoUnderwater
+	goto_if_unset FLAG_BADGE08_GET, EventScript_MayGoUnderwater
+	bufferpartymonnick STR_VAR_1, VAR_RESULT
+	setfieldeffectargument 0, VAR_RESULT
+	setfieldeffectargument 1, 1
 	msgbox Text_SeaIsDeepUseDive, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_EndDive
