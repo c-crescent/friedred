@@ -430,7 +430,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderSabrinaRematchChallen
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderBlaineRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderBlaineRematch[] = {
     {
         .iv = 255,
         .lvl = 72,
@@ -444,7 +444,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderBlaineRematch[] = {
         .lvl = 73,
         .species = SPECIES_NINETALES,
         .heldItem = ITEM_LEFTOVERS,
-        .abilityNum = 0,
+        .abilityNum = 1,
         .moves = {MOVE_SUNNY_DAY, MOVE_WILL_O_WISP, MOVE_SUBSTITUTE, MOVE_FIRE_BLAST},
     },
     {
