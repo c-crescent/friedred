@@ -218,7 +218,7 @@ static const struct TrainerMonItemCustomMovesEVs sParty_LeaderKogaRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
-        .evs = { 0, 252, 4, 252, 0, 0},
+        .evs = {0, 252, 4, 252, 0, 0},
         .species = SPECIES_ARBOK,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 1,
@@ -227,7 +227,7 @@ static const struct TrainerMonItemCustomMovesEVs sParty_LeaderKogaRematch[] = {
 	{
         .iv = 255,
         .lvl = 75,
-        .evs = { 156, 252, 0, 100, 0, 0},
+        .evs = {156, 252, 0, 100, 0, 0},
         .species = SPECIES_VENOMOTH,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
@@ -236,16 +236,16 @@ static const struct TrainerMonItemCustomMovesEVs sParty_LeaderKogaRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
-        .evs = { 0, 252, 4, 252, 0, 0},
+        .evs = {0, 252, 4, 252, 0, 0},
         .species = SPECIES_SEVIPER,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
-        .moves = {43, MOVE_CRUNCH, MOVE_GLARE, MOVE_X_SCISSOR, MOVE_SLUDGE_BOMB},
+        .moves = {MOVE_CRUNCH, MOVE_GLARE, MOVE_X_SCISSOR, MOVE_SLUDGE_BOMB},
     },
     {
         .iv = 255,
         .lvl = 75,
-        .evs = { 252, 252, 4, 0, 0, 0},
+        .evs = {252, 252, 4, 0, 0, 0},
         .species = SPECIES_MUK,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
@@ -254,7 +254,7 @@ static const struct TrainerMonItemCustomMovesEVs sParty_LeaderKogaRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
-        .evs = { 0, 0, 4, 252, 252, 0},
+        .evs = {0, 0, 4, 252, 252, 0},
         .species = SPECIES_WEEZING,
         .heldItem = ITEM_LEFTOVERS,
         .abilityNum = 0,
@@ -263,7 +263,7 @@ static const struct TrainerMonItemCustomMovesEVs sParty_LeaderKogaRematch[] = {
     {
         .iv = 255,
         .lvl = 75,
-        .evs = { 0, 252, 4, 252, 0, 0},
+        .evs = {0, 252, 4, 252, 0, 0},
         .species = SPECIES_CROBAT,
         .heldItem = ITEM_CHOICE_BAND,
         .abilityNum = 0,
@@ -322,7 +322,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderKogaRematchChallenge[
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderSabrinaRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderSabrinaRematch[] = {
     {
         .iv = 255,
         .lvl = 72,
@@ -424,7 +424,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderSabrinaRematchChallen
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderBlaineRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderBlaineRematch[] = {
     {
         .iv = 255,
         .lvl = 72,
@@ -967,7 +967,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderMistyRematchChallenge
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderDaisy[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderDaisy[] = {
     {
         .iv = 255,
         .lvl = 78,
@@ -1018,7 +1018,7 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderDaisy[] = {
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_LeaderGiovanniRematch[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_LeaderGiovanniRematch[] = {
     {
         .iv = 255,
         .lvl = 88,
@@ -12974,7 +12974,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SwimmerFemaleMelissa2[] 
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_EliteFourLorelei2[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_EliteFourLorelei2[] = {
     {
         .iv = 255,
         .lvl = 77,
@@ -13025,7 +13025,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLorelei2[] = {
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno2[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_EliteFourBruno2[] = {
     {
         .iv = 255,
         .lvl = 80,
@@ -13076,7 +13076,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno2[] = {
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_EliteFourAgatha2[] = {
     {
         .iv = 255,
         .lvl = 83,
@@ -13127,7 +13127,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_EliteFourLance2[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_EliteFourLance2[] = {
     {
         .iv = 255,
         .lvl = 84,
@@ -13178,7 +13178,7 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance2[] = {
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_ChampionRematchSquirtle[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_ChampionRematchSquirtle[] = {
     {
         .iv = 255,
         .lvl = 87,
@@ -13229,7 +13229,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchSquirtle[] =
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_ChampionRematchBulbasaur[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_ChampionRematchBulbasaur[] = {
     {
         .iv = 255,
         .lvl = 87,
@@ -13280,7 +13280,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchBulbasaur[] 
     },
 };
 
-static const struct TrainerMonItemCustomMoves sParty_ChampionRematchCharmander[] = {
+static const struct TrainerMonItemCustomMovesEVs sParty_ChampionRematchCharmander[] = {
     {
         .iv = 255,
         .lvl = 87,
