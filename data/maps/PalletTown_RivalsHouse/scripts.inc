@@ -225,7 +225,7 @@ PalletTown_RivalsHouse_Text_YouWon::
 	.string "everything I had into this fight.\p"
 	.string "We'd love to battle you again\n"
 	.string "sometime soon.\p"
-	.string "My POKéMON feel get excited just\n"
+	.string "My POKéMON get excited just\n"
 	.string "thinking about it.$"
 
 PalletTown_RivalsHouse_EventScript_RateMonFriendship::
