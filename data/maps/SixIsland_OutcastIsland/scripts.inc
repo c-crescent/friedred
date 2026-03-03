@@ -80,14 +80,8 @@ SixIsland_OutcastIsland_Movement_LaprasSurf::
 	
 SixIsland_OutcastIsland_Text_OldMan::
 	.string "You…\p"
-	.string "You seem like a well-traveled\n"
-	.string "young man.\p"
+	.string "You seem well-traveled.\n"
 	.string "This cave…\p"
-	.string "It has absolutely nothing\n"
-	.string "special in it.\p"
-	.string "And yet…\p"
 	.string "It seems as if it is hiding\n"
 	.string "things beyond comprehension.\p"
-	.string "I am too old to discover the secret\n"
-	.string "of ALTERING CAVE.\p"
 	.string "Oh well. I should be going…$"
