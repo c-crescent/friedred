@@ -146,8 +146,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_VICE_GRIP] =
     {
         .effect = EFFECT_HIT,
-        .power = 100,
-        .type = TYPE_NORMAL,
+        .power = 60,
+        .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 30,
         .secondaryEffectChance = 0,
